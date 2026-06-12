@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-RetaleOfHorror.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:/Users/dunkl/source/repos/opengl 3.0 testing/Retale of Horror/RetaleOfHorror/Intermediate/Build/Win64/x64/RetaleOfHorrorEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
+"C:/Users/dunkl/source/repos/opengl 3.0 testing/Retale of Horror/RetaleOfHorror/Intermediate/Build/Win64/x64/UnrealEditor/Development/RetaleOfHorror/RetaleOfHorror.cpp.obj"
+"C:/Users/dunkl/source/repos/opengl 3.0 testing/Retale of Horror/RetaleOfHorror/Intermediate/Build/Win64/x64/UnrealEditor/Development/RetaleOfHorror/PerModuleInline.gen.cpp.obj"
+"C:/Users/dunkl/source/repos/opengl 3.0 testing/Retale of Horror/RetaleOfHorror/Intermediate/Build/Win64/x64/UnrealEditor/Development/RetaleOfHorror/Default.rc2.res"
+/OUT:"C:/Users/dunkl/source/repos/opengl 3.0 testing/Retale of Horror/RetaleOfHorror/Intermediate/Build/Win64/x64/UnrealEditor/Development/RetaleOfHorror/UnrealEditor-RetaleOfHorror.lib"
