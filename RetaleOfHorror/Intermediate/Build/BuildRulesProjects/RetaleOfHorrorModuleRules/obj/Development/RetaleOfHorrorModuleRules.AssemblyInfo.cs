@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RetaleOfHorrorModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39c4fd873a3107ee36c213a627c87c6f35882dad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e51d57dfe1cae6503b1f8be0737c45f39a73cef9")]
 [assembly: System.Reflection.AssemblyProductAttribute("RetaleOfHorrorModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RetaleOfHorrorModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

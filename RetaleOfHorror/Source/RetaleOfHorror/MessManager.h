@@ -2,6 +2,7 @@
 
 #pragma once
 
+#include "Mess.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "MessManager.generated.h"
@@ -19,7 +20,7 @@ private:
 			//TIMER TUTORIAL = https://tomlooman.com/unreal-engine-cpp-timers/
 	
 	//object pool 
-	
+	ObjectPoolNode* messPool;
 
 	//the number of messes currently in the scene - this should never be negitive
 	UPROPERTY(EditAnywhere) int currentMessCount;
@@ -29,6 +30,8 @@ private:
 	UPROPERTY(EditAnywhere) int hardMessCap;
 	//the amount of time that it takes for the mess timer to tick
 	UPROPERTY(EditAnywhere) int messTimerLength;
+	//an array of messes to be used
+	UPROPERTY(EditAnywhere) TArray<AMess*> messArray;
 //methods
 public:	
 	// Sets default values for this actor's properties

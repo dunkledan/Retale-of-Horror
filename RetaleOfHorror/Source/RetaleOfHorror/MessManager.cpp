@@ -19,6 +19,9 @@ void AMessManager::BeginPlay()
 	//set timer
 	GetWorldTimerManager().SetTimer(messTimerHandle, this, &ThisClass::MessTimerOperations, messTimerLength, true);
 	
+	//construct linked list
+	//for each item in array make a new entry 
+	
 }
 
 // Called every frame
