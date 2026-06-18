@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.RetaleOfHorror.gen.cpp.obj": [
+			"BP_TestingCharactercpp.gen.cpp.obj",
+			"RetaleOfHorror.init.gen.cpp.obj"
+		]
+	}
+}

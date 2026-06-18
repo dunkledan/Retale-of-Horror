@@ -33,11 +33,12 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'">
     <LocalDebuggerCommandArguments>"$(SolutionDir)RetaleOfHorror.uproject" -skipcompile</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-    <LocalDebuggerCommandArgumentsHistory>"C:\Users\dunkl\source\repos\opengl 3.0 testing\Retale of Horror\RetaleOfHorror\RetaleOfHorror.uproject" -skipcompile|</LocalDebuggerCommandArgumentsHistory>
+    <LocalDebuggerCommandArgumentsHistory>"C:\Users\dunkl\source\repos\opengl 3.0 testing\Retale of Horror\RetaleOfHorror\RetaleOfHorror.uproject" -skipcompile|"C:\Users\dunkl\OneDrive\Documents\GitHub\repos\Retale of Horror\RetaleOfHorror\RetaleOfHorror.uproject" -skipcompile|</LocalDebuggerCommandArgumentsHistory>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win64_arm64_Development_Editor|x64'">
     <RemoteDebuggerCommandArguments>"$(SolutionDir)RetaleOfHorror.uproject" -skipcompile</RemoteDebuggerCommandArguments>
     <DebuggerFlavor>WindowsRemoteDebugger</DebuggerFlavor>
+    <RemoteDebuggerCommandArgumentsHistory>"C:\Users\dunkl\OneDrive\Documents\GitHub\repos\Retale of Horror\RetaleOfHorror\RetaleOfHorror.uproject" -skipcompile|</RemoteDebuggerCommandArgumentsHistory>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win64_arm64ec_Development_Editor|x64'">
     <RemoteDebuggerCommandArguments>"$(SolutionDir)RetaleOfHorror.uproject" -skipcompile</RemoteDebuggerCommandArguments>
