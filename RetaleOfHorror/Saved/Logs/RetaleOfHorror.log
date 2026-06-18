@@ -8583,3 +8583,786 @@ FPackageName: Skipped package /Game/Blueprints/CustomComponents/BP_Component_Lis
 [2026.06.18-17.08.41:772][923]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
 [2026.06.18-17.08.41:772][923]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2026.06.18-17.08.41:875][923]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2026.06.18-17.09.23:273][209]LogSlate: Window 'Pick Parent Class' being destroyed
+[2026.06.18-17.09.23:289][209]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2026.06.18-17.09.23:302][209]LogContentBrowser: Creating deferred item: NewBlueprint
+[2026.06.18-17.09.23:325][210]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2026.06.18-17.09.29:338][543]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_SoundEmittingComponent
+[2026.06.18-17.09.29:357][543]LogContentBrowser: End creating deferred item NewBlueprint
+[2026.06.18-17.09.30:839][619]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/CustomComponents/BP_SoundEmittingComponent.BP_SoundEmittingComponent
+[2026.06.18-17.09.30:839][619]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_34
+[2026.06.18-17.09.32:346][652]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.06.18-17.09.32:505][652]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/CustomComponents/BP_SoundEmittingComponent] ([2] browsable assets)...
+[2026.06.18-17.09.32:505][652]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/CustomComponents/BP_SoundEmittingComponent]
+[2026.06.18-17.09.32:511][652]LogSavePackage: Moving output files for package: /Game/Blueprints/CustomComponents/BP_SoundEmittingComponent
+[2026.06.18-17.09.32:511][652]LogSavePackage: Moving '../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Saved/BP_SoundEmittingComponentB3B74CB143E8563EC9609CB990034CBA.tmp' to '../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Content/Blueprints/CustomComponents/BP_SoundEmittingComponent.uasset'
+[2026.06.18-17.09.32:559][652]LogFileHelpers: InternalPromptForCheckoutAndSave took 212.336 ms (total: 25.4 sec)
+[2026.06.18-17.09.32:649][652]LogContentValidation: Display: Starting to validate 1 assets
+[2026.06.18-17.09.32:650][652]LogContentValidation: Enabled validators:
+[2026.06.18-17.09.32:650][652]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.06.18-17.09.32:650][652]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.06.18-17.09.32:650][652]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.06.18-17.09.32:650][652]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.06.18-17.09.32:650][652]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.06.18-17.09.32:650][652]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.06.18-17.09.32:650][652]AssetCheck: /Game/Blueprints/CustomComponents/BP_SoundEmittingComponent Validating asset
+[2026.06.18-17.09.32:738][652]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Saved/SourceControl/UncontrolledChangelists.json
+[2026.06.18-17.09.35:261][787]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2026.06.18-17.09.40:302][992]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Character.BP_Character
+[2026.06.18-17.09.40:303][992]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_35
+[2026.06.18-17.09.53:782][663]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.06.18-17.09.53:876][663]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/CustomComponents/BP_SoundEmittingComponent] ([2] browsable assets)...
+[2026.06.18-17.09.53:877][663]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/CustomComponents/BP_SoundEmittingComponent]
+[2026.06.18-17.09.53:880][663]LogSavePackage: Moving output files for package: /Game/Blueprints/CustomComponents/BP_SoundEmittingComponent
+[2026.06.18-17.09.53:883][663]LogSavePackage: Moving '../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Saved/BP_SoundEmittingComponent3CD91AC74206023B93854BBF40FF9178.tmp' to '../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Content/Blueprints/CustomComponents/BP_SoundEmittingComponent.uasset'
+[2026.06.18-17.09.53:926][663]LogFileHelpers: InternalPromptForCheckoutAndSave took 144.487 ms (total: 25.5 sec)
+[2026.06.18-17.09.54:029][663]LogContentValidation: Display: Starting to validate 1 assets
+[2026.06.18-17.09.54:029][663]LogContentValidation: Enabled validators:
+[2026.06.18-17.09.54:030][663]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.06.18-17.09.54:030][663]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.06.18-17.09.54:030][663]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.06.18-17.09.54:030][663]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.06.18-17.09.54:030][663]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.06.18-17.09.54:030][663]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.06.18-17.09.54:030][663]AssetCheck: /Game/Blueprints/CustomComponents/BP_SoundEmittingComponent Validating asset
+[2026.06.18-17.10.20:141][ 48]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.06.18-17.10.20:229][ 48]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/CustomComponents/BP_SoundEmittingComponent] ([2] browsable assets)...
+[2026.06.18-17.10.20:229][ 48]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/CustomComponents/BP_SoundEmittingComponent]
+[2026.06.18-17.10.20:232][ 48]LogSavePackage: Moving output files for package: /Game/Blueprints/CustomComponents/BP_SoundEmittingComponent
+[2026.06.18-17.10.20:234][ 48]LogSavePackage: Moving '../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Saved/BP_SoundEmittingComponent6E9E197B4E46672D516D2990161E01A4.tmp' to '../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Content/Blueprints/CustomComponents/BP_SoundEmittingComponent.uasset'
+[2026.06.18-17.10.20:275][ 48]LogFileHelpers: InternalPromptForCheckoutAndSave took 135.321 ms (total: 25.6 sec)
+[2026.06.18-17.10.20:360][ 48]LogContentValidation: Display: Starting to validate 1 assets
+[2026.06.18-17.10.20:360][ 48]LogContentValidation: Enabled validators:
+[2026.06.18-17.10.20:360][ 48]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.06.18-17.10.20:360][ 48]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.06.18-17.10.20:360][ 48]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.06.18-17.10.20:360][ 48]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.06.18-17.10.20:360][ 48]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.06.18-17.10.20:360][ 48]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.06.18-17.10.20:361][ 48]AssetCheck: /Game/Blueprints/CustomComponents/BP_SoundEmittingComponent Validating asset
+[2026.06.18-17.10.29:172][527]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.06.18-17.10.29:242][527]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/CustomComponents/BP_SoundEmittingComponent] ([2] browsable assets)...
+[2026.06.18-17.10.29:242][527]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/CustomComponents/BP_SoundEmittingComponent]
+[2026.06.18-17.10.29:248][527]LogSavePackage: Moving output files for package: /Game/Blueprints/CustomComponents/BP_SoundEmittingComponent
+[2026.06.18-17.10.29:250][527]LogSavePackage: Moving '../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Saved/BP_SoundEmittingComponent3200B54C49D65F7ADAD85B8AA0F0281E.tmp' to '../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Content/Blueprints/CustomComponents/BP_SoundEmittingComponent.uasset'
+[2026.06.18-17.10.29:289][527]LogFileHelpers: InternalPromptForCheckoutAndSave took 117.492 ms (total: 25.8 sec)
+[2026.06.18-17.10.29:356][527]LogContentValidation: Display: Starting to validate 1 assets
+[2026.06.18-17.10.29:356][527]LogContentValidation: Enabled validators:
+[2026.06.18-17.10.29:356][527]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.06.18-17.10.29:356][527]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.06.18-17.10.29:356][527]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.06.18-17.10.29:356][527]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.06.18-17.10.29:356][527]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.06.18-17.10.29:356][527]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.06.18-17.10.29:356][527]AssetCheck: /Game/Blueprints/CustomComponents/BP_SoundEmittingComponent Validating asset
+[2026.06.18-17.11.12:156][877]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.06.18-17.11.12:223][877]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/CustomComponents/BP_SoundEmittingComponent] ([2] browsable assets)...
+[2026.06.18-17.11.12:223][877]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/CustomComponents/BP_SoundEmittingComponent]
+[2026.06.18-17.11.12:231][877]LogSavePackage: Moving output files for package: /Game/Blueprints/CustomComponents/BP_SoundEmittingComponent
+[2026.06.18-17.11.12:233][877]LogSavePackage: Moving '../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Saved/BP_SoundEmittingComponent568DE2E744FDC943D7F07796A5F9E04F.tmp' to '../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Content/Blueprints/CustomComponents/BP_SoundEmittingComponent.uasset'
+[2026.06.18-17.11.12:257][877]LogFileHelpers: InternalPromptForCheckoutAndSave took 100.380 ms (total: 25.9 sec)
+[2026.06.18-17.11.12:336][877]LogContentValidation: Display: Starting to validate 1 assets
+[2026.06.18-17.11.12:336][877]LogContentValidation: Enabled validators:
+[2026.06.18-17.11.12:336][877]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.06.18-17.11.12:337][877]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.06.18-17.11.12:337][877]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.06.18-17.11.12:337][877]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.06.18-17.11.12:337][877]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.06.18-17.11.12:337][877]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.06.18-17.11.12:337][877]AssetCheck: /Game/Blueprints/CustomComponents/BP_SoundEmittingComponent Validating asset
+[2026.06.18-17.11.28:818][834]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.06.18-17.11.28:904][834]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/CustomComponents/BP_SoundEmittingComponent] ([2] browsable assets)...
+[2026.06.18-17.11.28:904][834]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/CustomComponents/BP_SoundEmittingComponent]
+[2026.06.18-17.11.28:909][834]LogSavePackage: Moving output files for package: /Game/Blueprints/CustomComponents/BP_SoundEmittingComponent
+[2026.06.18-17.11.28:912][834]LogSavePackage: Moving '../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Saved/BP_SoundEmittingComponent0D9995F84879541A64701C98610A02AC.tmp' to '../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Content/Blueprints/CustomComponents/BP_SoundEmittingComponent.uasset'
+[2026.06.18-17.11.28:950][834]LogFileHelpers: InternalPromptForCheckoutAndSave took 132.180 ms (total: 26.0 sec)
+[2026.06.18-17.11.29:040][834]LogContentValidation: Display: Starting to validate 1 assets
+[2026.06.18-17.11.29:040][834]LogContentValidation: Enabled validators:
+[2026.06.18-17.11.29:040][834]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.06.18-17.11.29:041][834]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.06.18-17.11.29:041][834]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.06.18-17.11.29:041][834]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.06.18-17.11.29:041][834]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.06.18-17.11.29:041][834]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.06.18-17.11.29:041][834]AssetCheck: /Game/Blueprints/CustomComponents/BP_SoundEmittingComponent Validating asset
+[2026.06.18-17.11.30:539][916]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.06.18-17.11.30:621][916]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Character] ([2] browsable assets)...
+[2026.06.18-17.11.30:621][916]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Character]
+[2026.06.18-17.11.30:641][916]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Character
+[2026.06.18-17.11.30:643][916]LogSavePackage: Moving '../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Saved/BP_Character4736FAE44262927CBBEBCF81A427BED2.tmp' to '../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Content/Blueprints/BP_Character.uasset'
+[2026.06.18-17.11.30:677][916]LogFileHelpers: InternalPromptForCheckoutAndSave took 139.687 ms (total: 26.1 sec)
+[2026.06.18-17.11.30:771][916]LogContentValidation: Display: Starting to validate 1 assets
+[2026.06.18-17.11.30:771][916]LogContentValidation: Enabled validators:
+[2026.06.18-17.11.30:771][916]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.06.18-17.11.30:771][916]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.06.18-17.11.30:771][916]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.06.18-17.11.30:771][916]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.06.18-17.11.30:771][916]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.06.18-17.11.30:771][916]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.06.18-17.11.30:771][916]AssetCheck: /Game/Blueprints/BP_Character Validating asset
+[2026.06.18-17.13.04:081][995]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.06.18-17.13.04:176][995]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/CustomComponents/BP_SoundEmittingComponent] ([2] browsable assets)...
+[2026.06.18-17.13.04:176][995]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/CustomComponents/BP_SoundEmittingComponent]
+[2026.06.18-17.13.04:182][995]LogSavePackage: Moving output files for package: /Game/Blueprints/CustomComponents/BP_SoundEmittingComponent
+[2026.06.18-17.13.04:185][995]LogSavePackage: Moving '../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Saved/BP_SoundEmittingComponent52B8E0EA43DA3594228A2EA1F63CBAE2.tmp' to '../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Content/Blueprints/CustomComponents/BP_SoundEmittingComponent.uasset'
+[2026.06.18-17.13.04:225][995]LogFileHelpers: InternalPromptForCheckoutAndSave took 142.935 ms (total: 26.3 sec)
+[2026.06.18-17.13.04:327][995]LogContentValidation: Display: Starting to validate 1 assets
+[2026.06.18-17.13.04:327][995]LogContentValidation: Enabled validators:
+[2026.06.18-17.13.04:327][995]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.06.18-17.13.04:327][995]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.06.18-17.13.04:327][995]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.06.18-17.13.04:327][995]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.06.18-17.13.04:327][995]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.06.18-17.13.04:327][995]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.06.18-17.13.04:327][995]AssetCheck: /Game/Blueprints/CustomComponents/BP_SoundEmittingComponent Validating asset
+[2026.06.18-17.13.05:537][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2026.06.18-17.13.56:532][471]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 15743.124023
+[2026.06.18-17.13.56:715][482]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.06.18-17.13.56:715][482]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 15743.289062, Update Interval: 355.956909
+[2026.06.18-17.14.30:327][908]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.06.18-17.14.30:431][908]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Character] ([2] browsable assets)...
+[2026.06.18-17.14.30:431][908]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Character]
+[2026.06.18-17.14.30:453][908]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Character
+[2026.06.18-17.14.30:456][908]LogSavePackage: Moving '../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Saved/BP_Character7BC11FF8491513324A1594A7B86A9AF2.tmp' to '../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Content/Blueprints/BP_Character.uasset'
+[2026.06.18-17.14.30:494][908]LogFileHelpers: InternalPromptForCheckoutAndSave took 167.121 ms (total: 26.4 sec)
+[2026.06.18-17.14.30:581][908]LogContentValidation: Display: Starting to validate 1 assets
+[2026.06.18-17.14.30:581][908]LogContentValidation: Enabled validators:
+[2026.06.18-17.14.30:581][908]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.06.18-17.14.30:581][908]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.06.18-17.14.30:581][908]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.06.18-17.14.30:581][908]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.06.18-17.14.30:581][908]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.06.18-17.14.30:581][908]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.06.18-17.14.30:582][908]AssetCheck: /Game/Blueprints/BP_Character Validating asset
+[2026.06.18-17.14.33:232][ 30]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2026.06.18-17.14.45:305][686]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2026.06.18-17.14.46:849][748]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.06.18-17.14.46:863][748]LogContentBundle: [map(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.06.18-17.14.46:863][748]LogWorldPartition: Display: GenerateStreaming for 'map' started...
+[2026.06.18-17.14.46:867][748]LogWorldPartition: Display: GenerateStreaming for 'map' took 4.162 ms (total: 3.14 sec)
+[2026.06.18-17.14.46:867][748]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.06.18-17.14.46:904][748]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_map
+[2026.06.18-17.14.46:945][748]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.06.18-17.14.46:955][748]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 10.753 ms (total: 628.230 ms)
+[2026.06.18-17.14.46:955][748]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050758s)
+[2026.06.18-17.14.46:955][748]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map.map to /Game/Maps/UEDPIE_0_map.map (0.050828s)
+[2026.06.18-17.14.47:005][748]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2026.06.18-17.14.47:013][748]LogChaosDD: Creating Chaos Debug Draw Scene for world map
+[2026.06.18-17.14.47:016][748]LogWorldPartition: ULevel::OnLevelLoaded(map)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.06.18-17.14.47:016][748]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.06.18-17.14.47:016][748]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Maps/UEDPIE_0_map.map, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.06.18-17.14.47:016][748]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.06.18-17.14.47:032][748]LogWorldPartition: Display: WorldPartition initialize took 16.297 ms (total: 1.14 sec)
+[2026.06.18-17.14.47:032][748]LogPlayLevel: PIE: World Init took: (0.019786s)
+[2026.06.18-17.14.47:034][748]LogAudio: Display: Creating Audio Device:                 Id: 54, Scope: Unique, Realtime: True
+[2026.06.18-17.14.47:034][748]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.06.18-17.14.47:034][748]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.06.18-17.14.47:034][748]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.06.18-17.14.47:034][748]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.06.18-17.14.47:034][748]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.06.18-17.14.47:034][748]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.06.18-17.14.47:034][748]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.06.18-17.14.47:034][748]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.06.18-17.14.47:034][748]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.06.18-17.14.47:034][748]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.06.18-17.14.47:034][748]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.06.18-17.14.47:038][748]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.06.18-17.14.47:072][748]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (G435 Wireless Gaming Headset)
+[2026.06.18-17.14.47:072][748]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.06.18-17.14.47:072][748]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.06.18-17.14.47:072][748]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.06.18-17.14.47:073][748]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=54
+[2026.06.18-17.14.47:073][748]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=54
+[2026.06.18-17.14.47:078][748]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=54
+[2026.06.18-17.14.47:078][748]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=54
+[2026.06.18-17.14.47:078][748]LogInit: FAudioDevice initialized with ID 54.
+[2026.06.18-17.14.47:078][748]LogAudio: Display: Audio Device (ID: 54) registered with world 'map'.
+[2026.06.18-17.14.47:078][748]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 54
+[2026.06.18-17.14.47:087][748]LogLoad: Game class is 'BP_MyGameMode_C'
+[2026.06.18-17.14.47:091][748]LogWorld: Bringing World /Game/Maps/UEDPIE_0_map.map up for play (max tick rate 60) at 2026.06.18-18.14.47
+[2026.06.18-17.14.47:092][748]LogWorld: Bringing up level for play took: 0.004358
+[2026.06.18-17.14.47:097][748]LogOnline: OSS: Created online subsystem instance for: :Context_87
+[2026.06.18-17.14.47:120][748]LogStreaming: Display: FlushAsyncLoading(3495,3494,3493,3492,3491,3490,3489,3488,3487,3486,3485,3484,3483,3482,3481,3480,3479,3478,3477,3476,3475,3474,3473,3472,3471,3470,3469,3468,3467,3466,3465,3464,3463,3462,3461,3460,3459,3458,3457,3455,3456,3454,3453,3452,3451): 45 QueuedPackages, 0 AsyncPackages
+[2026.06.18-17.14.47:675][748]PIE: Server logged in
+[2026.06.18-17.14.47:680][748]PIE: Play in editor total start time 0.817 seconds.
+[2026.06.18-17.14.47:807][748]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_MouseMovement'
+[2026.06.18-17.14.47:930][749]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.06.18-17.14.48:098][751]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.48:115][752]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.48:134][753]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.48:152][754]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.48:169][755]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.48:186][756]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.48:202][757]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.48:219][758]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.48:235][759]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.48:252][760]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.48:269][761]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.48:287][762]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.48:304][763]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.48:320][764]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.48:337][765]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.48:355][766]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.48:380][767]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.48:400][768]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.48:417][769]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.48:435][770]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.48:452][771]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.48:470][772]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.48:487][773]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.48:504][774]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.48:520][775]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.48:538][776]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.48:553][777]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.48:571][778]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.48:591][779]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.48:609][780]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.48:627][781]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.48:642][782]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.48:659][783]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.48:678][784]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.48:694][785]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.48:710][786]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.48:727][787]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.48:746][788]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.48:763][789]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.48:781][790]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.48:797][791]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.48:815][792]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.48:830][793]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.48:848][794]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] It stopped hearing you
+[2026.06.18-17.14.49:716][846]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.49:732][847]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.49:749][848]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.49:766][849]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.49:783][850]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.49:799][851]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.49:817][852]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.49:834][853]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.49:851][854]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.49:868][855]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.49:887][856]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.49:902][857]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.49:920][858]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.49:936][859]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.49:954][860]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.49:971][861]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.49:987][862]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.50:004][863]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.50:020][864]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.50:037][865]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.50:053][866]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.50:072][867]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] It stopped hearing you
+[2026.06.18-17.14.50:756][908]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.50:773][909]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.50:789][910]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.50:805][911]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.50:822][912]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.50:838][913]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.50:856][914]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.50:871][915]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.50:889][916]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.50:905][917]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.50:923][918]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] It stopped hearing you
+[2026.06.18-17.14.53:931][ 98]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.53:947][ 99]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.53:965][100]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.53:981][101]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.53:999][102]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.54:015][103]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.54:032][104]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.54:049][105]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.54:066][106]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.54:083][107]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.54:099][108]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.54:116][109]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.54:132][110]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.54:149][111]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.54:166][112]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.54:182][113]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.54:199][114]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.54:217][115]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.54:232][116]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.54:253][117]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] It stopped hearing you
+[2026.06.18-17.14.54:773][148]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.54:790][149]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.54:807][150]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.54:824][151]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.54:840][152]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.54:858][153]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.54:874][154]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.54:890][155]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.54:906][156]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.54:923][157]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.54:940][158]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.54:956][159]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.54:974][160]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.54:990][161]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.55:006][162]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.55:023][163]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.55:040][164]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.55:057][165]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.55:073][166]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.55:090][167]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.55:106][168]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.14.55:124][169]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] It stopped hearing you
+[2026.06.18-17.14.56:656][259]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.06.18-17.14.56:656][259]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_map
+[2026.06.18-17.14.56:670][259]LogWorld: UWorld::CleanupWorld for map, bSessionEnded=true, bCleanupResources=true
+[2026.06.18-17.14.56:671][259]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.06.18-17.14.56:671][259]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Maps/UEDPIE_0_map.map
+[2026.06.18-17.14.56:675][259]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.06.18-17.14.56:684][259]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.06.18-17.14.56:737][259]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.06.18-17.14.56:740][259]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 54
+[2026.06.18-17.14.56:740][259]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=54, StreamState=4
+[2026.06.18-17.14.56:743][259]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=54, StreamState=2
+[2026.06.18-17.14.56:766][259]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2026.06.18-17.14.56:826][260]LogPlayLevel: Display: Destroying online subsystem :Context_87
+[2026.06.18-17.14.58:762][358]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.06.18-17.14.58:859][358]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Character] ([2] browsable assets)...
+[2026.06.18-17.14.58:859][358]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Character]
+[2026.06.18-17.14.58:878][358]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Character
+[2026.06.18-17.14.58:881][358]LogSavePackage: Moving '../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Saved/BP_Character28CBEDCE4A87A9F04A7C3F8B0908115A.tmp' to '../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Content/Blueprints/BP_Character.uasset'
+[2026.06.18-17.14.58:914][358]LogFileHelpers: InternalPromptForCheckoutAndSave took 150.738 ms (total: 26.6 sec)
+[2026.06.18-17.14.59:005][358]LogContentValidation: Display: Starting to validate 1 assets
+[2026.06.18-17.14.59:005][358]LogContentValidation: Enabled validators:
+[2026.06.18-17.14.59:005][358]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.06.18-17.14.59:005][358]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.06.18-17.14.59:005][358]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.06.18-17.14.59:005][358]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.06.18-17.14.59:005][358]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.06.18-17.14.59:005][358]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.06.18-17.14.59:005][358]AssetCheck: /Game/Blueprints/BP_Character Validating asset
+[2026.06.18-17.15.04:188][626]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.06.18-17.15.04:268][626]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Character] ([2] browsable assets)...
+[2026.06.18-17.15.04:268][626]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Character]
+[2026.06.18-17.15.04:285][626]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Character
+[2026.06.18-17.15.04:286][626]LogSavePackage: Moving '../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Saved/BP_Character6365C278479A001356F91BA3ED8242CF.tmp' to '../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Content/Blueprints/BP_Character.uasset'
+[2026.06.18-17.15.04:320][626]LogFileHelpers: InternalPromptForCheckoutAndSave took 131.639 ms (total: 26.7 sec)
+[2026.06.18-17.15.04:384][626]LogContentValidation: Display: Starting to validate 1 assets
+[2026.06.18-17.15.04:384][626]LogContentValidation: Enabled validators:
+[2026.06.18-17.15.04:384][626]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.06.18-17.15.04:384][626]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.06.18-17.15.04:384][626]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.06.18-17.15.04:384][626]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.06.18-17.15.04:384][626]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.06.18-17.15.04:384][626]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.06.18-17.15.04:384][626]AssetCheck: /Game/Blueprints/BP_Character Validating asset
+[2026.06.18-17.15.40:060][643]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.06.18-17.15.40:137][643]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Character] ([2] browsable assets)...
+[2026.06.18-17.15.40:137][643]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Character]
+[2026.06.18-17.15.40:154][643]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Character
+[2026.06.18-17.15.40:156][643]LogSavePackage: Moving '../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Saved/BP_Character6DEDEC0C47C2660DFEF778A71547386B.tmp' to '../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Content/Blueprints/BP_Character.uasset'
+[2026.06.18-17.15.40:186][643]LogFileHelpers: InternalPromptForCheckoutAndSave took 126.575 ms (total: 26.8 sec)
+[2026.06.18-17.15.40:271][643]LogContentValidation: Display: Starting to validate 1 assets
+[2026.06.18-17.15.40:271][643]LogContentValidation: Enabled validators:
+[2026.06.18-17.15.40:271][643]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.06.18-17.15.40:271][643]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.06.18-17.15.40:271][643]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.06.18-17.15.40:271][643]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.06.18-17.15.40:271][643]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.06.18-17.15.40:271][643]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.06.18-17.15.40:271][643]AssetCheck: /Game/Blueprints/BP_Character Validating asset
+[2026.06.18-17.15.41:143][682]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2026.06.18-17.15.42:948][761]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.06.18-17.15.42:977][761]LogContentBundle: [map(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.06.18-17.15.42:977][761]LogWorldPartition: Display: GenerateStreaming for 'map' started...
+[2026.06.18-17.15.42:982][761]LogWorldPartition: Display: GenerateStreaming for 'map' took 4.164 ms (total: 3.14 sec)
+[2026.06.18-17.15.42:982][761]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.06.18-17.15.42:982][761]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_map
+[2026.06.18-17.15.43:025][761]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.06.18-17.15.43:036][761]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 10.768 ms (total: 638.999 ms)
+[2026.06.18-17.15.43:036][761]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053595s)
+[2026.06.18-17.15.43:036][761]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map.map to /Game/Maps/UEDPIE_0_map.map (0.053664s)
+[2026.06.18-17.15.43:080][761]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2026.06.18-17.15.43:089][761]LogChaosDD: Creating Chaos Debug Draw Scene for world map
+[2026.06.18-17.15.43:093][761]LogWorldPartition: ULevel::OnLevelLoaded(map)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.06.18-17.15.43:093][761]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.06.18-17.15.43:093][761]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Maps/UEDPIE_0_map.map, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.06.18-17.15.43:094][761]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.06.18-17.15.43:115][761]LogWorldPartition: Display: WorldPartition initialize took 21.753 ms (total: 1.16 sec)
+[2026.06.18-17.15.43:115][761]LogPlayLevel: PIE: World Init took: (0.025888s)
+[2026.06.18-17.15.43:116][761]LogAudio: Display: Creating Audio Device:                 Id: 55, Scope: Unique, Realtime: True
+[2026.06.18-17.15.43:116][761]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.06.18-17.15.43:116][761]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.06.18-17.15.43:116][761]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.06.18-17.15.43:116][761]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.06.18-17.15.43:116][761]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.06.18-17.15.43:116][761]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.06.18-17.15.43:116][761]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.06.18-17.15.43:116][761]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.06.18-17.15.43:116][761]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.06.18-17.15.43:116][761]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.06.18-17.15.43:116][761]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.06.18-17.15.43:120][761]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.06.18-17.15.43:151][761]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (G435 Wireless Gaming Headset)
+[2026.06.18-17.15.43:151][761]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.06.18-17.15.43:151][761]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.06.18-17.15.43:151][761]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.06.18-17.15.43:152][761]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=55
+[2026.06.18-17.15.43:152][761]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=55
+[2026.06.18-17.15.43:158][761]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=55
+[2026.06.18-17.15.43:158][761]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=55
+[2026.06.18-17.15.43:158][761]LogInit: FAudioDevice initialized with ID 55.
+[2026.06.18-17.15.43:158][761]LogAudio: Display: Audio Device (ID: 55) registered with world 'map'.
+[2026.06.18-17.15.43:158][761]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 55
+[2026.06.18-17.15.43:165][761]LogLoad: Game class is 'BP_MyGameMode_C'
+[2026.06.18-17.15.43:168][761]LogWorld: Bringing World /Game/Maps/UEDPIE_0_map.map up for play (max tick rate 60) at 2026.06.18-18.15.43
+[2026.06.18-17.15.43:169][761]LogWorld: Bringing up level for play took: 0.003136
+[2026.06.18-17.15.43:173][761]LogOnline: OSS: Created online subsystem instance for: :Context_88
+[2026.06.18-17.15.43:185][761]LogStreaming: Display: FlushAsyncLoading(3540,3539,3538,3537,3536,3535,3534,3533,3532,3531,3530,3529,3528,3527,3526,3525,3524,3523,3522,3521,3520,3519,3518,3517,3516,3515,3514,3513,3512,3511,3510,3509,3508,3507,3506,3505,3504,3503,3502,3500,3501,3499,3498,3497,3496): 45 QueuedPackages, 0 AsyncPackages
+[2026.06.18-17.15.43:769][761]PIE: Server logged in
+[2026.06.18-17.15.43:774][761]PIE: Play in editor total start time 0.797 seconds.
+[2026.06.18-17.15.43:899][761]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_MouseMovement'
+[2026.06.18-17.15.43:946][762]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.43:946][762]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.086761 > MaxSimulationTimeStep (0.050) for 'BP_Character_C_0', movement 'Walking'
+[2026.06.18-17.15.44:046][762]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.06.18-17.15.44:153][763]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.44:232][764]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.44:285][765]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.44:335][766]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.44:362][767]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.44:377][768]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.44:608][769]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.44:630][770]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.44:649][771]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.44:672][772]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.44:693][773]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.44:715][774]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.44:743][775]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.44:765][776]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.44:791][777]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.44:814][778]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.44:837][779]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.44:857][780]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.44:874][781]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.44:892][782]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] It stopped hearing you
+[2026.06.18-17.15.45:299][806]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.45:316][807]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.45:334][808]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.45:352][809]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.45:369][810]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.45:386][811]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.45:406][812]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.45:422][813]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.45:440][814]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.45:460][815]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.45:480][816]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.45:497][817]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.45:514][818]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.45:532][819]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.45:546][820]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.45:563][821]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.45:580][822]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.45:596][823]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.45:613][824]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.45:630][825]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.45:646][826]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.45:664][827]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.45:682][828]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.45:701][829]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.45:718][830]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.45:736][831]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] It stopped hearing you
+[2026.06.18-17.15.46:041][849]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.46:057][850]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.46:074][851]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.46:090][852]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.46:108][853]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.46:124][854]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.46:142][855]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.46:158][856]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.46:174][857]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.46:190][858]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.46:211][859]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.46:227][860]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.46:244][861]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.46:260][862]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.46:277][863]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.46:293][864]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.46:310][865]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.15.46:327][866]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] It stopped hearing you
+[2026.06.18-17.15.46:616][881]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.06.18-17.15.46:616][881]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_map
+[2026.06.18-17.15.46:632][881]LogWorld: UWorld::CleanupWorld for map, bSessionEnded=true, bCleanupResources=true
+[2026.06.18-17.15.46:632][881]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.06.18-17.15.46:632][881]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Maps/UEDPIE_0_map.map
+[2026.06.18-17.15.46:636][881]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.06.18-17.15.46:644][881]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.06.18-17.15.46:700][881]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.06.18-17.15.46:701][881]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 55
+[2026.06.18-17.15.46:702][881]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=55, StreamState=4
+[2026.06.18-17.15.46:705][881]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=55, StreamState=2
+[2026.06.18-17.15.46:714][881]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.06.18-17.15.46:727][881]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2026.06.18-17.15.46:862][882]LogPlayLevel: Display: Destroying online subsystem :Context_88
+[2026.06.18-17.15.57:991][520]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.06.18-17.15.58:082][520]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Character] ([2] browsable assets)...
+[2026.06.18-17.15.58:082][520]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Character]
+[2026.06.18-17.15.58:101][520]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Character
+[2026.06.18-17.15.58:105][520]LogSavePackage: Moving '../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Saved/BP_Character1C7C02884B1785BCB7A291BA0862717F.tmp' to '../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Content/Blueprints/BP_Character.uasset'
+[2026.06.18-17.15.58:139][520]LogFileHelpers: InternalPromptForCheckoutAndSave took 148.541 ms (total: 27.0 sec)
+[2026.06.18-17.15.58:235][520]LogContentValidation: Display: Starting to validate 1 assets
+[2026.06.18-17.15.58:235][520]LogContentValidation: Enabled validators:
+[2026.06.18-17.15.58:235][520]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.06.18-17.15.58:235][520]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.06.18-17.15.58:235][520]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.06.18-17.15.58:235][520]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.06.18-17.15.58:235][520]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.06.18-17.15.58:235][520]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.06.18-17.15.58:235][520]AssetCheck: /Game/Blueprints/BP_Character Validating asset
+[2026.06.18-17.18.09:710][365]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.06.18-17.18.09:796][365]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/CustomComponents/BP_SoundEmittingComponent] ([2] browsable assets)...
+[2026.06.18-17.18.09:796][365]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/CustomComponents/BP_SoundEmittingComponent]
+[2026.06.18-17.18.09:806][365]LogSavePackage: Moving output files for package: /Game/Blueprints/CustomComponents/BP_SoundEmittingComponent
+[2026.06.18-17.18.09:809][365]LogSavePackage: Moving '../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Saved/BP_SoundEmittingComponent6ED19FD543B78400270624B3425D51BF.tmp' to '../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Content/Blueprints/CustomComponents/BP_SoundEmittingComponent.uasset'
+[2026.06.18-17.18.09:850][365]LogFileHelpers: InternalPromptForCheckoutAndSave took 140.172 ms (total: 27.1 sec)
+[2026.06.18-17.18.09:948][365]LogContentValidation: Display: Starting to validate 1 assets
+[2026.06.18-17.18.09:948][365]LogContentValidation: Enabled validators:
+[2026.06.18-17.18.09:948][365]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.06.18-17.18.09:948][365]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.06.18-17.18.09:948][365]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.06.18-17.18.09:948][365]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.06.18-17.18.09:948][365]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.06.18-17.18.09:948][365]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.06.18-17.18.09:948][365]AssetCheck: /Game/Blueprints/CustomComponents/BP_SoundEmittingComponent Validating asset
+[2026.06.18-17.18.31:107][407]LogContentBrowser: Attempting asset rename: BPI_ActorCommunication -> BPI_ActorAudioCommunication
+[2026.06.18-17.18.31:342][407]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.06.18-17.18.31:343][407]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Character] ([2] browsable assets)...
+[2026.06.18-17.18.31:343][407]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Character]
+[2026.06.18-17.18.31:359][407]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Character
+[2026.06.18-17.18.31:363][407]LogSavePackage: Moving '../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Saved/BP_Character334FC7814D462AA8BA8A6BA401221E47.tmp' to '../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Content/Blueprints/BP_Character.uasset'
+[2026.06.18-17.18.31:366][407]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_Dumm] ([2] browsable assets)...
+[2026.06.18-17.18.31:459][407]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Dumm.BP_Dumm]
+[2026.06.18-17.18.31:459][407]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Dumm]
+[2026.06.18-17.18.31:459][407]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Dumm" FILE="../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Content/Blueprints/BP_Dumm.uasset" SILENT=true
+[2026.06.18-17.18.31:472][407]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Dumm
+[2026.06.18-17.18.31:475][407]LogSavePackage: Moving '../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Saved/BP_DummBFAE6D44442D71B5178366855EA024C0.tmp' to '../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Content/Blueprints/BP_Dumm.uasset'
+[2026.06.18-17.18.31:477][407]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/CustomComponents/BP_SoundHearingComponent] ([2] browsable assets)...
+[2026.06.18-17.18.31:478][407]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/CustomComponents/BP_SoundHearingComponent]
+[2026.06.18-17.18.31:484][407]LogSavePackage: Moving output files for package: /Game/Blueprints/CustomComponents/BP_SoundHearingComponent
+[2026.06.18-17.18.31:486][407]LogSavePackage: Moving '../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Saved/BP_SoundHearingComponentF06FB52A41D1EA7918F4BEAF7A313C47.tmp' to '../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Content/Blueprints/CustomComponents/BP_SoundHearingComponent.uasset'
+[2026.06.18-17.18.31:490][407]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/CustomComponents/BP_SoundEmittingComponent] ([2] browsable assets)...
+[2026.06.18-17.18.31:490][407]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/CustomComponents/BP_SoundEmittingComponent]
+[2026.06.18-17.18.31:498][407]LogSavePackage: Moving output files for package: /Game/Blueprints/CustomComponents/BP_SoundEmittingComponent
+[2026.06.18-17.18.31:500][407]LogSavePackage: Moving '../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Saved/BP_SoundEmittingComponent125845E44E700CA70A51E5AC921DBDAD.tmp' to '../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Content/Blueprints/CustomComponents/BP_SoundEmittingComponent.uasset'
+[2026.06.18-17.18.31:504][407]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Interfaces/BPI_ActorAudioCommunication] ([2] browsable assets)...
+[2026.06.18-17.18.31:504][407]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Interfaces/BPI_ActorAudioCommunication]
+[2026.06.18-17.18.31:509][407]LogSavePackage: Moving output files for package: /Game/Blueprints/Interfaces/BPI_ActorAudioCommunication
+[2026.06.18-17.18.31:509][407]LogSavePackage: Moving '../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Saved/BPI_ActorAudioCommunicationFF5A506840B22281C5F53FA918551FAA.tmp' to '../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Content/Blueprints/Interfaces/BPI_ActorAudioCommunication.uasset'
+[2026.06.18-17.18.31:536][407]LogFileHelpers: InternalPromptForCheckoutAndSave took 193.661 ms (total: 27.3 sec)
+[2026.06.18-17.18.31:602][407]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2026.06.18-17.18.31:654][407]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2026.06.18-17.18.31:699][407]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2026.06.18-17.18.31:835][407]LogContentValidation: Display: Starting to validate 5 assets
+[2026.06.18-17.18.31:836][407]LogContentValidation: Enabled validators:
+[2026.06.18-17.18.31:836][407]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.06.18-17.18.31:836][407]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.06.18-17.18.31:836][407]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.06.18-17.18.31:836][407]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.06.18-17.18.31:836][407]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.06.18-17.18.31:836][407]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.06.18-17.18.31:836][407]AssetCheck: /Game/Blueprints/BP_Character Validating asset
+[2026.06.18-17.18.31:836][407]AssetCheck: /Game/Blueprints/BP_Dumm Validating asset
+[2026.06.18-17.18.31:836][407]AssetCheck: /Game/Blueprints/CustomComponents/BP_SoundHearingComponent Validating asset
+[2026.06.18-17.18.31:836][407]AssetCheck: /Game/Blueprints/CustomComponents/BP_SoundEmittingComponent Validating asset
+[2026.06.18-17.18.31:836][407]AssetCheck: /Game/Blueprints/Interfaces/BPI_ActorAudioCommunication Validating asset
+[2026.06.18-17.18.31:936][407]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Saved/SourceControl/UncontrolledChangelists.json
+[2026.06.18-17.18.36:177][619]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.06.18-17.18.36:285][619]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Character] ([2] browsable assets)...
+[2026.06.18-17.18.36:285][619]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Character]
+[2026.06.18-17.18.36:300][619]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Character
+[2026.06.18-17.18.36:301][619]LogSavePackage: Moving '../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Saved/BP_Character205A025146AC5B1BF02B6490C8D58622.tmp' to '../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Content/Blueprints/BP_Character.uasset'
+[2026.06.18-17.18.36:339][619]LogFileHelpers: InternalPromptForCheckoutAndSave took 162.640 ms (total: 27.5 sec)
+[2026.06.18-17.18.36:434][619]LogContentValidation: Display: Starting to validate 1 assets
+[2026.06.18-17.18.36:434][619]LogContentValidation: Enabled validators:
+[2026.06.18-17.18.36:434][619]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.06.18-17.18.36:434][619]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.06.18-17.18.36:434][619]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.06.18-17.18.36:435][619]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.06.18-17.18.36:435][619]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.06.18-17.18.36:435][619]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.06.18-17.18.36:435][619]AssetCheck: /Game/Blueprints/BP_Character Validating asset
+[2026.06.18-17.19.44:031][386]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2026.06.18-17.19.50:313][675]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/CustomComponents/BP_SoundHearingComponent.BP_SoundHearingComponent
+[2026.06.18-17.19.50:314][675]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_36
+[2026.06.18-17.20.10:824][830]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2026.06.18-17.20.13:081][919]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2026.06.18-17.20.14:641][981]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.06.18-17.20.14:657][981]LogContentBundle: [map(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.06.18-17.20.14:657][981]LogWorldPartition: Display: GenerateStreaming for 'map' started...
+[2026.06.18-17.20.14:662][981]LogWorldPartition: Display: GenerateStreaming for 'map' took 6.038 ms (total: 3.15 sec)
+[2026.06.18-17.20.14:665][981]LogPlayLevel: [PlayLevel] Compiling BP_Dumm before play...
+[2026.06.18-17.20.14:757][981]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2026.06.18-17.20.14:766][981]LogPlayLevel: PlayLevel: Blueprint regeneration took 102 ms (1 blueprints)
+[2026.06.18-17.20.14:766][981]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_map
+[2026.06.18-17.20.14:807][981]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.06.18-17.20.14:819][981]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 10.594 ms (total: 649.593 ms)
+[2026.06.18-17.20.14:819][981]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053094s)
+[2026.06.18-17.20.14:819][981]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map.map to /Game/Maps/UEDPIE_0_map.map (0.053160s)
+[2026.06.18-17.20.14:864][981]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2026.06.18-17.20.14:869][981]LogChaosDD: Creating Chaos Debug Draw Scene for world map
+[2026.06.18-17.20.14:872][981]LogWorldPartition: ULevel::OnLevelLoaded(map)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.06.18-17.20.14:872][981]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.06.18-17.20.14:872][981]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Maps/UEDPIE_0_map.map, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.06.18-17.20.14:872][981]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.06.18-17.20.14:887][981]LogWorldPartition: Display: WorldPartition initialize took 14.772 ms (total: 1.18 sec)
+[2026.06.18-17.20.14:887][981]LogPlayLevel: PIE: World Init took: (0.018111s)
+[2026.06.18-17.20.14:888][981]LogAudio: Display: Creating Audio Device:                 Id: 56, Scope: Unique, Realtime: True
+[2026.06.18-17.20.14:888][981]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.06.18-17.20.14:888][981]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.06.18-17.20.14:888][981]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.06.18-17.20.14:888][981]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.06.18-17.20.14:888][981]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.06.18-17.20.14:888][981]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.06.18-17.20.14:888][981]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.06.18-17.20.14:888][981]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.06.18-17.20.14:888][981]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.06.18-17.20.14:888][981]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.06.18-17.20.14:888][981]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.06.18-17.20.14:892][981]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.06.18-17.20.14:929][981]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (G435 Wireless Gaming Headset)
+[2026.06.18-17.20.14:929][981]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.06.18-17.20.14:929][981]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.06.18-17.20.14:929][981]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.06.18-17.20.14:929][981]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=56
+[2026.06.18-17.20.14:930][981]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=56
+[2026.06.18-17.20.14:935][981]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=56
+[2026.06.18-17.20.14:935][981]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=56
+[2026.06.18-17.20.14:935][981]LogInit: FAudioDevice initialized with ID 56.
+[2026.06.18-17.20.14:935][981]LogAudio: Display: Audio Device (ID: 56) registered with world 'map'.
+[2026.06.18-17.20.14:935][981]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 56
+[2026.06.18-17.20.14:942][981]LogLoad: Game class is 'BP_MyGameMode_C'
+[2026.06.18-17.20.14:946][981]LogWorld: Bringing World /Game/Maps/UEDPIE_0_map.map up for play (max tick rate 60) at 2026.06.18-18.20.14
+[2026.06.18-17.20.14:947][981]LogWorld: Bringing up level for play took: 0.003182
+[2026.06.18-17.20.14:950][981]LogOnline: OSS: Created online subsystem instance for: :Context_90
+[2026.06.18-17.20.14:963][981]LogStreaming: Display: FlushAsyncLoading(3585,3584,3583,3582,3581,3580,3579,3578,3577,3576,3575,3574,3573,3572,3571,3570,3569,3568,3567,3566,3565,3564,3563,3562,3561,3560,3559,3558,3557,3556,3555,3554,3553,3552,3551,3550,3549,3548,3547,3545,3546,3544,3543,3542,3541): 45 QueuedPackages, 0 AsyncPackages
+[2026.06.18-17.20.15:539][981]PIE: Server logged in
+[2026.06.18-17.20.15:544][981]PIE: Play in editor total start time 0.888 seconds.
+[2026.06.18-17.20.15:669][981]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_MouseMovement'
+[2026.06.18-17.20.15:801][982]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.06.18-17.20.17:030][ 40]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.17:053][ 41]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.17:076][ 42]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.17:096][ 43]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.17:120][ 44]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.17:140][ 45]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.17:159][ 46]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.17:177][ 47]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.17:197][ 48]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.17:213][ 49]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.17:230][ 50]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.17:252][ 51]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.17:269][ 52]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.17:287][ 53]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.17:304][ 54]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.17:324][ 55]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.17:344][ 56]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.17:362][ 57]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.17:382][ 58]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.17:397][ 59]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.17:416][ 60]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.17:433][ 61]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.17:450][ 62]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.17:466][ 63]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.17:483][ 64]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.17:500][ 65]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.17:516][ 66]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.17:533][ 67]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.17:551][ 68]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.17:566][ 69]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.17:584][ 70]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.17:602][ 71]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.17:619][ 72]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.17:636][ 73]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] It stopped hearing you
+[2026.06.18-17.20.18:040][ 97]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.18:055][ 98]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.18:072][ 99]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.18:088][100]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.18:104][101]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.18:122][102]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.18:140][103]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.18:158][104]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.18:175][105]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.18:191][106]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.18:207][107]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.18:224][108]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.18:241][109]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.18:257][110]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.18:274][111]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.18:290][112]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.18:307][113]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.18:324][114]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.18:341][115]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] It stopped hearing you
+[2026.06.18-17.20.18:709][137]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.18:725][138]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.18:742][139]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.18:758][140]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.18:775][141]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.18:792][142]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.18:807][143]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.18:825][144]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.18:840][145]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.18:857][146]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.18:874][147]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.18:891][148]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.18:908][149]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.18:925][150]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.18:941][151]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.18:957][152]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.18:975][153]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.18:991][154]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.19:008][155]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.19:024][156]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.19:041][157]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.19:057][158]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.19:075][159]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.19:092][160]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] It stopped hearing you
+[2026.06.18-17.20.19:429][180]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.19:448][181]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.19:466][182]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.19:482][183]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.19:499][184]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.19:516][185]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.19:533][186]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.19:549][187]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.19:566][188]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.19:583][189]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] This heard you
+[2026.06.18-17.20.19:600][190]LogBlueprintUserMessages: [BP_Dumm_C_UAID_581122E4B59DDCE402_1296442984] It stopped hearing you
+[2026.06.18-17.20.19:971][210]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.06.18-17.20.19:971][210]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_map
+[2026.06.18-17.20.19:985][210]LogWorld: UWorld::CleanupWorld for map, bSessionEnded=true, bCleanupResources=true
+[2026.06.18-17.20.19:985][210]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.06.18-17.20.19:985][210]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Maps/UEDPIE_0_map.map
+[2026.06.18-17.20.19:991][210]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.06.18-17.20.19:999][210]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.06.18-17.20.20:055][210]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.06.18-17.20.20:056][210]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 56
+[2026.06.18-17.20.20:056][210]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=56, StreamState=4
+[2026.06.18-17.20.20:060][210]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=56, StreamState=2
+[2026.06.18-17.20.20:081][210]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2026.06.18-17.20.20:153][211]LogPlayLevel: Display: Destroying online subsystem :Context_90
+[2026.06.18-17.20.28:667][696]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 16135.232422
+[2026.06.18-17.20.28:869][704]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.06.18-17.20.28:869][704]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 16135.416992, Update Interval: 311.045258
+[2026.06.18-17.20.53:263][141]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.06.18-17.20.53:355][141]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/CustomComponents/BP_SoundHearingComponent] ([2] browsable assets)...
+[2026.06.18-17.20.53:355][141]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/CustomComponents/BP_SoundHearingComponent]
+[2026.06.18-17.20.53:361][141]LogSavePackage: Moving output files for package: /Game/Blueprints/CustomComponents/BP_SoundHearingComponent
+[2026.06.18-17.20.53:364][141]LogSavePackage: Moving '../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Saved/BP_SoundHearingComponentFFC0CF07403A59310C7686BAD254EAAE.tmp' to '../../../../../../Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Content/Blueprints/CustomComponents/BP_SoundHearingComponent.uasset'
+[2026.06.18-17.20.53:402][141]LogFileHelpers: InternalPromptForCheckoutAndSave took 138.148 ms (total: 27.6 sec)
+[2026.06.18-17.20.53:484][141]LogContentValidation: Display: Starting to validate 1 assets
+[2026.06.18-17.20.53:484][141]LogContentValidation: Enabled validators:
+[2026.06.18-17.20.53:484][141]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.06.18-17.20.53:484][141]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.06.18-17.20.53:484][141]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.06.18-17.20.53:484][141]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.06.18-17.20.53:484][141]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.06.18-17.20.53:484][141]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.06.18-17.20.53:484][141]AssetCheck: /Game/Blueprints/CustomComponents/BP_SoundHearingComponent Validating asset
