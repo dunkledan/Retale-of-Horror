@@ -6,6 +6,10 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Program Files/Epic Games/UE_5.6/Engine/Content/ArtTools/RenderToTexture/Blueprints/RenderToTexture_Game.uasset",
+				"C:/Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/RetaleOfHorror/Content/Blueprints/BP_Character.uasset",
+				"C:/Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/RetaleOfHorror/Content/Blueprints/BP_ShopObject.uasset",
+				"C:/Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/RetaleOfHorror/Content/Blueprints/UI/BP_ShopMenu.uasset",
+				"C:/Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/RetaleOfHorror/Content/Blueprints/Interfaces/BPI_ActorCommunication.uasset",
 				"C:/Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Content/Input/IA_Upgrade.uasset",
 				"C:/Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Content/Input/IA_Movement.uasset",
 				"C:/Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Content/Input/IA_WASDMovement.uasset",
