@@ -12,6 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <None Include="..\..\.vsconfig" />
+    <None Include="..\..\RetaleOfHorror.sln.DotSettings.user" />
     <None Include="..\..\UpgradeLog.htm" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
@@ -47,6 +48,12 @@
       <Filter>Source\RetaleOfHorror</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\RetaleOfHorror\ObjectPoolNode.h">
+      <Filter>Source\RetaleOfHorror</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RetaleOfHorror\PoolableObject.cpp">
+      <Filter>Source\RetaleOfHorror</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RetaleOfHorror\PoolableObject.h">
       <Filter>Source\RetaleOfHorror</Filter>
     </ClInclude>
     <None Include="..\..\Source\RetaleOfHorror\RetaleOfHorror.Build.cs">

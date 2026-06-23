@@ -8,34 +8,34 @@
  * 
  */
 //a node for a circularly linked list of objects in an object pool, WARNING: performing multiple operations on this linked list simultaneously will cause errors due to list not being able to track what has been searched
-class RETALEOFHORROR_API ObjectPoolNode
+template <typename T> class RETALEOFHORROR_API TObjectPoolNode
 {
 //variables
 private:
-	UObject* data;
-	ObjectPoolNode* nextNode;
+	T* Data;
+	TObjectPoolNode* NextNode;
 	//if the object is being used in the scene
-	bool objectInUse;
+	bool ObjectInUse;
 	//if the object has already been selected by an operation (for internal use only)
-	bool objectSelected;
+	bool ObjectSelected;
 
 //methods
 public:
 	//constructor 
-	ObjectPoolNode();
-	ObjectPoolNode(UObject* newData);
-	ObjectPoolNode(ObjectPoolNode* nextNode, UObject* data);
+	TObjectPoolNode();
+	TObjectPoolNode(T* NewData);
+	TObjectPoolNode(TObjectPoolNode* NextNode, T* Data);
 	//destructor
-	~ObjectPoolNode();
+	~TObjectPoolNode();
 	
 	//get next node
-	ObjectPoolNode* GetNextNode(); 
+	TObjectPoolNode* GetNextNode(); 
 	//get next unused node
-	ObjectPoolNode* GetNextNodeNotInUse();
+	TObjectPoolNode* GetNextNodeNotInUse();
 	//count how many objects are in pool
 	int ObjectCount();
 	//insert new node in after current node
-	void NewNode(UObject* newData);
+	void NewNode(T* NewData);
 	//delete the node after this node, this does not delete the data it is pointing to
 	void DeleteNextNode();
 	//delete this node, return if it was successful
@@ -43,9 +43,11 @@ public:
 	//delete linked list
 	void DeleteList();
 	//change if using object based on bool parameter
-	void ChangeObjectInUse(bool inUse);
+	void ChangeObjectInUse(bool InUse);
+	//get the pointer to the data in the node
+	T* GetData();
 	//search for item with pointer to node
-	ObjectPoolNode* SearchForNodeWithPointer(ObjectPoolNode* pointer);
+	TObjectPoolNode* SearchForNodeWithPointer(TObjectPoolNode* Pointer);
 	//search for item with pointer to data
-	ObjectPoolNode* SearchForNodeWithData(UObject* newData);
+	TObjectPoolNode* SearchForNodeWithData(T* NewData);
 };

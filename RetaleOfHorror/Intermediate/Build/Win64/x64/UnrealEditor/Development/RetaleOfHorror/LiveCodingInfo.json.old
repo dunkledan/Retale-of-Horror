@@ -3,8 +3,8 @@
 	{
 		"Module.RetaleOfHorror.gen.cpp.obj": [
 			"Mess.gen.cpp.obj",
-			"MessManager.gen.cpp.obj",
 			"PoolableObject.gen.cpp.obj",
+			"MessManager.gen.cpp.obj",
 			"RetaleOfHorror.init.gen.cpp.obj"
 		]
 	}

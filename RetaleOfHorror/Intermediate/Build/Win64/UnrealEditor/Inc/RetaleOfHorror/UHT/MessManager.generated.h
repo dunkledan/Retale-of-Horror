@@ -19,7 +19,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 // ********** Begin Class AMessManager *************************************************************
 RETALEOFHORROR_API UClass* Z_Construct_UClass_AMessManager_NoRegister();
 
-#define FID_Users_Gaming_Documents_GitHub_Retale_of_Horror_RetaleOfHorror_Source_RetaleOfHorror_MessManager_h_14_INCLASS_NO_PURE_DECLS \
+#define FID_Users_Gaming_Documents_GitHub_Retale_of_Horror_RetaleOfHorror_Source_RetaleOfHorror_MessManager_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMessManager(); \
 	friend struct Z_Construct_UClass_AMessManager_Statics; \
@@ -30,22 +30,21 @@ public: \
 	DECLARE_SERIALIZER(AMessManager)
 
 
-#define FID_Users_Gaming_Documents_GitHub_Retale_of_Horror_RetaleOfHorror_Source_RetaleOfHorror_MessManager_h_14_ENHANCED_CONSTRUCTORS \
+#define FID_Users_Gaming_Documents_GitHub_Retale_of_Horror_RetaleOfHorror_Source_RetaleOfHorror_MessManager_h_15_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	AMessManager(AMessManager&&) = delete; \
 	AMessManager(const AMessManager&) = delete; \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AMessManager); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMessManager); \
-	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AMessManager) \
-	NO_API virtual ~AMessManager();
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AMessManager)
 
 
-#define FID_Users_Gaming_Documents_GitHub_Retale_of_Horror_RetaleOfHorror_Source_RetaleOfHorror_MessManager_h_11_PROLOG
-#define FID_Users_Gaming_Documents_GitHub_Retale_of_Horror_RetaleOfHorror_Source_RetaleOfHorror_MessManager_h_14_GENERATED_BODY \
+#define FID_Users_Gaming_Documents_GitHub_Retale_of_Horror_RetaleOfHorror_Source_RetaleOfHorror_MessManager_h_12_PROLOG
+#define FID_Users_Gaming_Documents_GitHub_Retale_of_Horror_RetaleOfHorror_Source_RetaleOfHorror_MessManager_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_Gaming_Documents_GitHub_Retale_of_Horror_RetaleOfHorror_Source_RetaleOfHorror_MessManager_h_14_INCLASS_NO_PURE_DECLS \
-	FID_Users_Gaming_Documents_GitHub_Retale_of_Horror_RetaleOfHorror_Source_RetaleOfHorror_MessManager_h_14_ENHANCED_CONSTRUCTORS \
+	FID_Users_Gaming_Documents_GitHub_Retale_of_Horror_RetaleOfHorror_Source_RetaleOfHorror_MessManager_h_15_INCLASS_NO_PURE_DECLS \
+	FID_Users_Gaming_Documents_GitHub_Retale_of_Horror_RetaleOfHorror_Source_RetaleOfHorror_MessManager_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

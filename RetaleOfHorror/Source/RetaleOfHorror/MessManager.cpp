@@ -13,15 +13,31 @@ AMessManager::AMessManager()
 
 // Called when the game starts or when spawned
 void AMessManager::BeginPlay()
-{
+{ 
 	Super::BeginPlay();
 
 	//set timer
-	GetWorldTimerManager().SetTimer(messTimerHandle, this, &ThisClass::MessTimerOperations, messTimerLength, true);
+	GetWorldTimerManager().SetTimer(MessTimerHandle, this, &ThisClass::MessTimerOperations, MessTimerLength, true);
 	
 	//construct linked list
-	//for each item in array make a new entry 
+	MessPool = nullptr;
+	for (AMess* Mess : MessArray)
+	{
+		if (MessPool == nullptr) //if first node create new linked list
+		{
+			MessPool = new TObjectPoolNode(Mess);
+		}
+		else //otherwise add to pool
+		{
+			MessPool->NewNode(Mess);
+		}
+	}
 	
+	//check that there are messes in pool, if not throw error
+	if (MessPool == nullptr)
+	{
+		UE_LOG(LogTemp, Error, TEXT("ERROR:Mess pool is null."));
+	}
 }
 
 // Called every frame
@@ -44,7 +60,7 @@ void AMessManager::MessTimerOperations()
 		}
 		else
 		{
-			currentMessCount += 1;	//if mess is spawned increment counter
+			CurrentMessCount += 1;	//if mess is spawned increment counter
 		}
 		//check if over soft cap
 		if (ShouldBossBeCalled() == true)
@@ -64,7 +80,7 @@ void AMessManager::MessTimerOperations()
 
 bool AMessManager::CheckMessSpawnable()
 {
-	if (currentMessCount >= hardMessCap)	//if mess is over hard cap
+	if (CurrentMessCount >= HardMessCap)	//if mess is over hard cap
 	{
 		return false;
 	}
@@ -73,22 +89,53 @@ bool AMessManager::CheckMessSpawnable()
 
 bool AMessManager::ShouldBossBeCalled()
 {
-	if (currentMessCount >= softMessCap)	//if mess is over soft cap
+	if (CurrentMessCount >= SoftMessCap)	//if mess is over soft cap
 	{
 		return true;
 	}
 	return false;
 }
 
+AMess* AMessManager::GetMessFromPool()
+{
+	MessPool = MessPool->GetNextNodeNotInUse();
+	//if all nodes are in use throw error, if not return data
+	if (MessPool == nullptr)
+	{
+		UE_LOG(LogTemp, Error, TEXT("Mess pool is null."));
+		return nullptr;
+	}
+	else
+	{
+		MessPool->ChangeObjectInUse(true);
+		return MessPool->GetData();
+	}
+}
+
 bool AMessManager::SpawnMess()
 {
 	UE_LOG(LogTemp, Display, TEXT("Spawned a mess"));
+	AMess* Mess = GetMessFromPool();
+	if (Mess == nullptr)
+	{
+		UE_LOG(LogTemp, Error, TEXT("Mess pool is null."));
+	}
+	else
+	{
+		Mess->SpawnMess();
+	}
 	return true;
 }
 
 void AMessManager::CallBoss()
 {
 	UE_LOG(LogTemp, Display, TEXT("Call the boss"));
+}
+
+AMessManager::~AMessManager()
+{
+	UE_LOG(LogTemp, Display, TEXT("Destructing Mess Manager"));
+	//messPool->DeleteList();
 }
 
 

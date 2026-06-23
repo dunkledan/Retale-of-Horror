@@ -3,93 +3,89 @@
 
 #include "ObjectPoolNode.h"
 
-ObjectPoolNode::ObjectPoolNode()
+template <typename T> TObjectPoolNode<T>::TObjectPoolNode()
 {
-	data = nullptr;
-	nextNode = this;	//if this is the only node in list point to self, this allows circular methods to still run without changes
-	objectInUse = false;
-	objectSelected = false;
+	Data = nullptr;
+	NextNode = this;	//if this is the only node in list point to self, this allows circular methods to still run without changes
+	ObjectInUse = false;
+	ObjectSelected = false;
 }
 
-ObjectPoolNode::ObjectPoolNode(UObject* newData)
+template <typename T> TObjectPoolNode<T>::TObjectPoolNode(T* NewData)
 {
-	this->data = newData;
-	nextNode = this;
-	objectInUse = false;
-	objectSelected = false;
+	Data = NewData;
+	NextNode = this;
+	ObjectInUse = false;
+	ObjectSelected = false;
 }
 
-ObjectPoolNode::ObjectPoolNode(ObjectPoolNode* nextNode, UObject* newData)
+template <typename T> TObjectPoolNode<T>::TObjectPoolNode(TObjectPoolNode<T>* NextNode, T* NewData)
 {
-	this->data = newData;
-	this->nextNode = nextNode;
-	objectInUse = false;
-	objectSelected = false;
+	Data = NewData;
+	this->NextNode = NextNode;
+	ObjectInUse = false;
+	ObjectSelected = false;
 }
 
-ObjectPoolNode* ObjectPoolNode::GetNextNode()
+template <typename T> TObjectPoolNode<T>* TObjectPoolNode<T>::GetNextNode()
 {
-	return nextNode;
+	return NextNode;
 }
 
-ObjectPoolNode* ObjectPoolNode::GetNextNodeNotInUse()
+template <typename T> TObjectPoolNode<T>* TObjectPoolNode<T>::GetNextNodeNotInUse()
 {
 	//recursively search through list until you find a node already searched or node you are looking for
-	if (objectSelected == true)	//if node's already been selected, break condition 1
+	if (ObjectSelected == true)	//if node's already been selected, break condition 1
 	{
 		return nullptr;
 	}
-	else if (objectInUse == false)	//if not being used return self, break condition 2
+	if (ObjectInUse == false)	//if not being used return self, break condition 2
 	{
 		return this;
 	}
-	else
-	{
-		objectSelected = true;
-		ObjectPoolNode* tempHolder = GetNextNode()->GetNextNodeNotInUse();	//search next node
-		objectSelected = false;
-		return tempHolder;
-	}
+	ObjectSelected = true;
+	TObjectPoolNode* tempHolder = GetNextNode()->GetNextNodeNotInUse();	//search next node
+	ObjectSelected = false;
+	return tempHolder;
+	
 }
 
-int ObjectPoolNode::ObjectCount()
+template <typename T> int TObjectPoolNode<T>::ObjectCount()
 {
 	//use a recursive loop to count how many objects are in the list
-	if (objectSelected == true)	//if node has already been selected, break condition 
+	if (ObjectSelected == true)	//if node has already been selected, break condition 
 	{
 		return 0;
 	}
-	objectSelected = true;
+	ObjectSelected = true;
 	int count = GetNextNode()->ObjectCount() + 1;
-	objectSelected = false;
+	ObjectSelected = false;
 	return count;
 }
 
 //insert new node in after current node
-void ObjectPoolNode::NewNode(UObject* newData)
+template <typename T> void TObjectPoolNode<T>::NewNode(T* NewData)
 {
 	//create new node after this one 
 	//pointer = this nodes pointer
-	ObjectPoolNode* newNode = new ObjectPoolNode(nextNode, newData);
+	TObjectPoolNode<T>* newNode = new TObjectPoolNode<T>(NextNode, NewData);
 	//this nodes pointer = to new node
-	nextNode = newNode;
-	//delete pointer to prevent memory leak
-	delete newNode;
+	NextNode = newNode;
 }
 
 //delete the node after this node, this does not delete the data it is pointing to
-void ObjectPoolNode::DeleteNextNode()
+template <typename T> void TObjectPoolNode<T>::DeleteNextNode()
 {
-	ObjectPoolNode* newNextNode = GetNextNode()->GetNextNode();	//the nextNode of the node to be deleted
+	TObjectPoolNode* newNextNode = GetNextNode()->GetNextNode();	//the nextNode of the node to be deleted
 	delete GetNextNode(); //delete next node
-	nextNode = newNextNode; //set new next node
+	NextNode = newNextNode; //set new next node
 }
 
 //delete this node, return if it was successful
-bool ObjectPoolNode::DeleteThisNode()
+template <typename T> bool TObjectPoolNode<T>::DeleteThisNode()
 {
 	//search for node pointing to this one
-	ObjectPoolNode* previousNode = SearchForNodeWithPointer(this);
+	TObjectPoolNode* previousNode = SearchForNodeWithPointer(this);
 	if (previousNode == nullptr)	//if no node is pointing to this
 	{
 		//throw error
@@ -103,62 +99,67 @@ bool ObjectPoolNode::DeleteThisNode()
 }
 
 //delete linked list - NEEDS TO BE DONE
-void ObjectPoolNode::DeleteList()
+template <typename T> void TObjectPoolNode<T>::DeleteList()
 {
 	//make recursive function that backtracks and deletes stuff
 }
 
-void ObjectPoolNode::ChangeObjectInUse(bool inUse)
+template <typename T> void TObjectPoolNode<T>::ChangeObjectInUse(bool InUse)
 {
-	objectInUse = inUse;
+	ObjectInUse = InUse;
+}
+
+template <typename T> T* TObjectPoolNode<T>::GetData()
+{
+	return Data;
 }
 
 //search for item with pointer to node
-ObjectPoolNode* ObjectPoolNode::SearchForNodeWithPointer(ObjectPoolNode* pointer)
+template <typename T> TObjectPoolNode<T>* TObjectPoolNode<T>::SearchForNodeWithPointer(TObjectPoolNode<T>* Pointer)
 {
-	if (objectSelected == true) //if object has already been searched
+	if (ObjectSelected == true) //if object has already been searched
 	{
 		//throw warning for object can't be found in list
 		UE_LOG(LogTemp, Warning, TEXT("Warning in ObjectPoolNode::SearchForNodeWithPointer() : object being searched for isn't in list"));
 		return nullptr;
 	}
-	else if (nextNode == nullptr)
+	else if (NextNode == nullptr)
 	{
 		//throw error for item in circular linked list with nullptr
 		UE_LOG(LogTemp, Error, TEXT("ERROR in ObjectPoolNode::SearchForNodeWithPointer() : nextNode is nullptr"));
 		return nullptr;
 	}
-	else if (pointer == nextNode)
+	else if (Pointer == NextNode)
 	{
 		return this;
 	}
 	//recursive call
-	objectSelected = true;
-	ObjectPoolNode* tempHolder = GetNextNode()->SearchForNodeWithPointer(pointer);
-	objectSelected = false;
+	ObjectSelected = true;
+	TObjectPoolNode* tempHolder = GetNextNode()->SearchForNodeWithPointer(Pointer);
+	ObjectSelected = false;
 	return tempHolder;
 }
 
 //search for item with pointer to data
-ObjectPoolNode* ObjectPoolNode::SearchForNodeWithData(UObject* newData)
+template <typename T> TObjectPoolNode<T>* TObjectPoolNode<T>::SearchForNodeWithData(T* NewData)
 {
-	if (objectSelected == true) //if object has already been searched
+	if (ObjectSelected == true) //if object has already been searched
 	{
 		//throw warning for object can't be found in list
 		UE_LOG(LogTemp, Warning, TEXT("Warning in ObjectPoolNode::SearchForNodeWithData() : object being searched for isn't in list"));
 		return nullptr;
 	}
-	else if (this->data == newData)
+	else if (this->Data == NewData)
 	{
 		return this;
 	}
 	//recursive call
-	objectSelected = true;
-	ObjectPoolNode* tempHolder = GetNextNode()->SearchForNodeWithData(newData);
-	objectSelected = false;
-	return tempHolder;
+	ObjectSelected = true;
+	TObjectPoolNode* TempHolder = GetNextNode()->SearchForNodeWithData(NewData);
+	ObjectSelected = false;
+	return TempHolder;
 }
 
-ObjectPoolNode::~ObjectPoolNode()
+template <typename T> TObjectPoolNode<T>::~TObjectPoolNode()
 {
 }

@@ -17,7 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeRetaleOfHorror_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xA92844FE,
+				0xF10960C2,
 				0x3BE39769,
 				METADATA_PARAMS(0, nullptr)
 			};
@@ -25,5 +25,5 @@ void EmptyLinkFunctionForGeneratedCodeRetaleOfHorror_init() {}
 		}
 		return Z_Registration_Info_UPackage__Script_RetaleOfHorror.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_RetaleOfHorror(Z_Construct_UPackage__Script_RetaleOfHorror, TEXT("/Script/RetaleOfHorror"), Z_Registration_Info_UPackage__Script_RetaleOfHorror, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xA92844FE, 0x3BE39769));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_RetaleOfHorror(Z_Construct_UPackage__Script_RetaleOfHorror, TEXT("/Script/RetaleOfHorror"), Z_Registration_Info_UPackage__Script_RetaleOfHorror, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xF10960C2, 0x3BE39769));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

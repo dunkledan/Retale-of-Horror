@@ -65,17 +65,17 @@ struct Z_Construct_UClass_AMessManager_Statics
 		{ "ToolTip", "The manager of all messes in a level" },
 #endif
 	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_currentMessCount_MetaData[] = {
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CurrentMessCount_MetaData[] = {
 		{ "Category", "MessManager" },
 #if !UE_BUILD_SHIPPING
-		{ "Comment", "//the number of messes currently in the scene - this should never be negitive\n" },
+		{ "Comment", "//the number of messes currently in the scene - this should never be negative\n" },
 #endif
 		{ "ModuleRelativePath", "MessManager.h" },
 #if !UE_BUILD_SHIPPING
-		{ "ToolTip", "the number of messes currently in the scene - this should never be negitive" },
+		{ "ToolTip", "the number of messes currently in the scene - this should never be negative" },
 #endif
 	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_softMessCap_MetaData[] = {
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SoftMessCap_MetaData[] = {
 		{ "Category", "MessManager" },
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "//the maximum amount of messes that can be spawned in before the boss calls\n" },
@@ -85,7 +85,7 @@ struct Z_Construct_UClass_AMessManager_Statics
 		{ "ToolTip", "the maximum amount of messes that can be spawned in before the boss calls" },
 #endif
 	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_hardMessCap_MetaData[] = {
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_HardMessCap_MetaData[] = {
 		{ "Category", "MessManager" },
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "//the maximum amount of messes that can be spawned in at one time\n" },
@@ -95,7 +95,7 @@ struct Z_Construct_UClass_AMessManager_Statics
 		{ "ToolTip", "the maximum amount of messes that can be spawned in at one time" },
 #endif
 	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_messTimerLength_MetaData[] = {
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MessTimerLength_MetaData[] = {
 		{ "Category", "MessManager" },
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "//the amount of time that it takes for the mess timer to tick\n" },
@@ -105,7 +105,7 @@ struct Z_Construct_UClass_AMessManager_Statics
 		{ "ToolTip", "the amount of time that it takes for the mess timer to tick" },
 #endif
 	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_messArray_MetaData[] = {
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MessArray_MetaData[] = {
 		{ "Category", "MessManager" },
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "//an array of messes to be used\n" },
@@ -116,12 +116,12 @@ struct Z_Construct_UClass_AMessManager_Statics
 #endif
 	};
 #endif // WITH_METADATA
-	static const UECodeGen_Private::FIntPropertyParams NewProp_currentMessCount;
-	static const UECodeGen_Private::FIntPropertyParams NewProp_softMessCap;
-	static const UECodeGen_Private::FIntPropertyParams NewProp_hardMessCap;
-	static const UECodeGen_Private::FIntPropertyParams NewProp_messTimerLength;
-	static const UECodeGen_Private::FObjectPropertyParams NewProp_messArray_Inner;
-	static const UECodeGen_Private::FArrayPropertyParams NewProp_messArray;
+	static const UECodeGen_Private::FIntPropertyParams NewProp_CurrentMessCount;
+	static const UECodeGen_Private::FIntPropertyParams NewProp_SoftMessCap;
+	static const UECodeGen_Private::FIntPropertyParams NewProp_HardMessCap;
+	static const UECodeGen_Private::FIntPropertyParams NewProp_MessTimerLength;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_MessArray_Inner;
+	static const UECodeGen_Private::FArrayPropertyParams NewProp_MessArray;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -129,19 +129,19 @@ struct Z_Construct_UClass_AMessManager_Statics
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
-const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_AMessManager_Statics::NewProp_currentMessCount = { "currentMessCount", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMessManager, currentMessCount), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_currentMessCount_MetaData), NewProp_currentMessCount_MetaData) };
-const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_AMessManager_Statics::NewProp_softMessCap = { "softMessCap", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMessManager, softMessCap), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_softMessCap_MetaData), NewProp_softMessCap_MetaData) };
-const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_AMessManager_Statics::NewProp_hardMessCap = { "hardMessCap", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMessManager, hardMessCap), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_hardMessCap_MetaData), NewProp_hardMessCap_MetaData) };
-const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_AMessManager_Statics::NewProp_messTimerLength = { "messTimerLength", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMessManager, messTimerLength), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_messTimerLength_MetaData), NewProp_messTimerLength_MetaData) };
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMessManager_Statics::NewProp_messArray_Inner = { "messArray", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UClass_AMess_NoRegister, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AMessManager_Statics::NewProp_messArray = { "messArray", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMessManager, messArray), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_messArray_MetaData), NewProp_messArray_MetaData) };
+const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_AMessManager_Statics::NewProp_CurrentMessCount = { "CurrentMessCount", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMessManager, CurrentMessCount), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CurrentMessCount_MetaData), NewProp_CurrentMessCount_MetaData) };
+const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_AMessManager_Statics::NewProp_SoftMessCap = { "SoftMessCap", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMessManager, SoftMessCap), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SoftMessCap_MetaData), NewProp_SoftMessCap_MetaData) };
+const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_AMessManager_Statics::NewProp_HardMessCap = { "HardMessCap", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMessManager, HardMessCap), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_HardMessCap_MetaData), NewProp_HardMessCap_MetaData) };
+const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_AMessManager_Statics::NewProp_MessTimerLength = { "MessTimerLength", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMessManager, MessTimerLength), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MessTimerLength_MetaData), NewProp_MessTimerLength_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMessManager_Statics::NewProp_MessArray_Inner = { "MessArray", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UClass_AMess_NoRegister, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AMessManager_Statics::NewProp_MessArray = { "MessArray", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMessManager, MessArray), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MessArray_MetaData), NewProp_MessArray_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMessManager_Statics::PropPointers[] = {
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMessManager_Statics::NewProp_currentMessCount,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMessManager_Statics::NewProp_softMessCap,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMessManager_Statics::NewProp_hardMessCap,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMessManager_Statics::NewProp_messTimerLength,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMessManager_Statics::NewProp_messArray_Inner,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMessManager_Statics::NewProp_messArray,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMessManager_Statics::NewProp_CurrentMessCount,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMessManager_Statics::NewProp_SoftMessCap,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMessManager_Statics::NewProp_HardMessCap,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMessManager_Statics::NewProp_MessTimerLength,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMessManager_Statics::NewProp_MessArray_Inner,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMessManager_Statics::NewProp_MessArray,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AMessManager_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_AMessManager_Statics::DependentSingletons[])() = {
@@ -173,17 +173,16 @@ UClass* Z_Construct_UClass_AMessManager()
 	return Z_Registration_Info_UClass_AMessManager.OuterSingleton;
 }
 DEFINE_VTABLE_PTR_HELPER_CTOR(AMessManager);
-AMessManager::~AMessManager() {}
 // ********** End Class AMessManager ***************************************************************
 
 // ********** Begin Registration *******************************************************************
 struct Z_CompiledInDeferFile_FID_Users_Gaming_Documents_GitHub_Retale_of_Horror_RetaleOfHorror_Source_RetaleOfHorror_MessManager_h__Script_RetaleOfHorror_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AMessManager, AMessManager::StaticClass, TEXT("AMessManager"), &Z_Registration_Info_UClass_AMessManager, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMessManager), 1933024679U) },
+		{ Z_Construct_UClass_AMessManager, AMessManager::StaticClass, TEXT("AMessManager"), &Z_Registration_Info_UClass_AMessManager, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMessManager), 3888174889U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Gaming_Documents_GitHub_Retale_of_Horror_RetaleOfHorror_Source_RetaleOfHorror_MessManager_h__Script_RetaleOfHorror_1211532165(TEXT("/Script/RetaleOfHorror"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Gaming_Documents_GitHub_Retale_of_Horror_RetaleOfHorror_Source_RetaleOfHorror_MessManager_h__Script_RetaleOfHorror_2427617511(TEXT("/Script/RetaleOfHorror"),
 	Z_CompiledInDeferFile_FID_Users_Gaming_Documents_GitHub_Retale_of_Horror_RetaleOfHorror_Source_RetaleOfHorror_MessManager_h__Script_RetaleOfHorror_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Gaming_Documents_GitHub_Retale_of_Horror_RetaleOfHorror_Source_RetaleOfHorror_MessManager_h__Script_RetaleOfHorror_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
