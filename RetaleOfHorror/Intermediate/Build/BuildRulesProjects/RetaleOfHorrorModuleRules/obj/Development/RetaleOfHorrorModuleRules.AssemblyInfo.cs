@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RetaleOfHorrorModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5266b99d025cdb7e063db70137d452c0b8af7800")]
+<<<<<<< HEAD
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55cf34634a47ec2ffdc5c3132467ac60e7e75a47")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc4727ccca5dd7b2f219c95e6925f5b9351f551c")]
+>>>>>>> Mess-maanger-tmep
 [assembly: System.Reflection.AssemblyProductAttribute("RetaleOfHorrorModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RetaleOfHorrorModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

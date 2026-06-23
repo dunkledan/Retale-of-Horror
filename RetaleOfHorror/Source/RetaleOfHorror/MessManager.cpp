@@ -15,13 +15,7 @@ AMessManager::AMessManager()
 void AMessManager::BeginPlay()
 { 
 	Super::BeginPlay();
-	//init mess array storage
-	
-	for (TActorIterator<AMess> It(GetWorld()); It; ++It)
-	{
-		MessArray.Add(*It);
-	}
-	
+
 	//set timer
 	GetWorldTimerManager().SetTimer(MessTimerHandle, this, &ThisClass::MessTimerOperations, MessTimerLength, true);
 	
@@ -104,15 +98,18 @@ bool AMessManager::ShouldBossBeCalled()
 
 AMess* AMessManager::GetMessFromPool()
 {
+	MessPool = MessPool->GetNextNodeNotInUse();
 	//if all nodes are in use throw error, if not return data
 	if (MessPool == nullptr)
 	{
 		UE_LOG(LogTemp, Error, TEXT("Mess pool is null."));
 		return nullptr;
 	}
-	MessPool = MessPool->GetNextNodeNotInUse();
-	MessPool->ChangeObjectInUse(true);
-	return MessPool->GetData();
+	else
+	{
+		MessPool->ChangeObjectInUse(true);
+		return MessPool->GetData();
+	}
 }
 
 bool AMessManager::SpawnMess()
@@ -138,12 +135,7 @@ void AMessManager::CallBoss()
 AMessManager::~AMessManager()
 {
 	UE_LOG(LogTemp, Display, TEXT("Destructing Mess Manager"));
-	if (MessPool)
-	{
-		MessPool = nullptr;
-		delete MessPool;
-		MessPool = nullptr;
-	}
+	//messPool->DeleteList();
 }
 
 

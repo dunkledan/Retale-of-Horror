@@ -9,19 +9,13 @@ AMess::AMess()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>("StaticMesh");
-	ConstructorHelpers::FObjectFinder<UStaticMesh> MeshObj(TEXT("/Engine/EditorMeshes/EditorCube"));
-	if (MeshObj.Succeeded())
-	{
-		Mesh->SetStaticMesh(MeshObj.Object);
-	}
+
 }
 
 // Called when the game starts or when spawned
 void AMess::BeginPlay()
 {
 	Super::BeginPlay();
-	SpawnLocation = this->GetActorLocation();
-	this->SetActorLocation(PoolingLocation);
 	
 }
 

@@ -4,7 +4,6 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "EngineUtils.h"
 #include "Mess.generated.h"
 
 UCLASS()
@@ -13,7 +12,7 @@ class RETALEOFHORROR_API AMess : public AActor
 	GENERATED_BODY()
 private:
 
-	UPROPERTY(EditAnywhere) FVector PoolingLocation = FVector(-10000.f, -10000.f, -10000.f);
+	UPROPERTY(EditAnywhere) FVector PoolingLocation;
 	UPROPERTY(EditAnywhere) FVector SpawnLocation;
 public:	
 	// Sets default values for this actor's properties

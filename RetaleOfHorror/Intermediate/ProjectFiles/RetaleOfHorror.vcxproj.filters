@@ -12,9 +12,13 @@
       <Filter>Source</Filter>
     </None>
     <None Include="..\..\.vsconfig" />
-    <None Include="..\..\RetaleOfHorror.sln.DotSettings.user" />
+<<<<<<< HEAD
     <None Include="..\..\UpgradeLog.htm" />
     <None Include="..\..\UpgradeLog2.htm" />
+=======
+    <None Include="..\..\RetaleOfHorror.sln.DotSettings.user" />
+    <None Include="..\..\UpgradeLog.htm" />
+>>>>>>> Mess-maanger-tmep
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -25,9 +29,6 @@
       <Filter>Config</Filter>
     </None>
     <None Include="..\..\Config\DefaultGame.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultGameplayTags.ini">
       <Filter>Config</Filter>
     </None>
     <None Include="..\..\Config\DefaultInput.ini">
