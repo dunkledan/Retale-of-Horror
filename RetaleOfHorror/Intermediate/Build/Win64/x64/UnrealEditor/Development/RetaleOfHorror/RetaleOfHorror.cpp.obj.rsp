@@ -1,24 +1,12 @@
-<<<<<<< HEAD
-"C:/Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Source/RetaleOfHorror/RetaleOfHorror.cpp"
-@"C:/Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Intermediate/Build/Win64/x64/UnrealEditor/Development/RetaleOfHorror/RetaleOfHorror.Shared.rsp"
-/FI"C:/Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Intermediate/Build/Win64/x64/RetaleOfHorrorEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
-/FI"C:/Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Intermediate/Build/Win64/x64/UnrealEditor/Development/RetaleOfHorror/Definitions.RetaleOfHorror.h"
-/Yu"C:/Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Intermediate/Build/Win64/x64/RetaleOfHorrorEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
-/Fp"C:/Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Intermediate/Build/Win64/x64/RetaleOfHorrorEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.pch"
-/Fo"C:/Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Intermediate/Build/Win64/x64/UnrealEditor/Development/RetaleOfHorror/RetaleOfHorror.cpp.obj"
-/experimental:log "C:/Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Intermediate/Build/Win64/x64/UnrealEditor/Development/RetaleOfHorror/RetaleOfHorror.cpp.sarif"
-/sourceDependencies "C:/Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/Intermediate/Build/Win64/x64/UnrealEditor/Development/RetaleOfHorror/RetaleOfHorror.cpp.dep.json"
-=======
-"C:/Users/Gaming/Documents/GitHub/Retale-of-Horror/RetaleOfHorror/Source/RetaleOfHorror/RetaleOfHorror.cpp"
-@"C:/Users/Gaming/Documents/GitHub/Retale-of-Horror/RetaleOfHorror/Intermediate/Build/Win64/x64/UnrealEditor/Development/RetaleOfHorror/RetaleOfHorror.Shared.rsp"
-/FI"C:/Users/Gaming/Documents/GitHub/Retale-of-Horror/RetaleOfHorror/Intermediate/Build/Win64/x64/RetaleOfHorrorEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
-/FI"C:/Users/Gaming/Documents/GitHub/Retale-of-Horror/RetaleOfHorror/Intermediate/Build/Win64/x64/UnrealEditor/Development/RetaleOfHorror/Definitions.RetaleOfHorror.h"
-/Yu"C:/Users/Gaming/Documents/GitHub/Retale-of-Horror/RetaleOfHorror/Intermediate/Build/Win64/x64/RetaleOfHorrorEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
-/Fp"C:/Users/Gaming/Documents/GitHub/Retale-of-Horror/RetaleOfHorror/Intermediate/Build/Win64/x64/RetaleOfHorrorEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.pch"
-/Fo"C:/Users/Gaming/Documents/GitHub/Retale-of-Horror/RetaleOfHorror/Intermediate/Build/Win64/x64/UnrealEditor/Development/RetaleOfHorror/RetaleOfHorror.cpp.obj"
-/experimental:log "C:/Users/Gaming/Documents/GitHub/Retale-of-Horror/RetaleOfHorror/Intermediate/Build/Win64/x64/UnrealEditor/Development/RetaleOfHorror/RetaleOfHorror.cpp.sarif"
-/sourceDependencies "C:/Users/Gaming/Documents/GitHub/Retale-of-Horror/RetaleOfHorror/Intermediate/Build/Win64/x64/UnrealEditor/Development/RetaleOfHorror/RetaleOfHorror.cpp.dep.json"
->>>>>>> Mess-maanger-tmep
+"C:/Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/RetaleOfHorror/Source/RetaleOfHorror/RetaleOfHorror.cpp"
+@"C:/Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/RetaleOfHorror/Intermediate/Build/Win64/x64/UnrealEditor/Development/RetaleOfHorror/RetaleOfHorror.Shared.rsp"
+/FI"C:/Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/RetaleOfHorror/Intermediate/Build/Win64/x64/RetaleOfHorrorEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
+/FI"C:/Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/RetaleOfHorror/Intermediate/Build/Win64/x64/UnrealEditor/Development/RetaleOfHorror/Definitions.RetaleOfHorror.h"
+/Yu"C:/Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/RetaleOfHorror/Intermediate/Build/Win64/x64/RetaleOfHorrorEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
+/Fp"C:/Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/RetaleOfHorror/Intermediate/Build/Win64/x64/RetaleOfHorrorEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.pch"
+/Fo"C:/Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/RetaleOfHorror/Intermediate/Build/Win64/x64/UnrealEditor/Development/RetaleOfHorror/RetaleOfHorror.cpp.obj"
+/experimental:log "C:/Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/RetaleOfHorror/Intermediate/Build/Win64/x64/UnrealEditor/Development/RetaleOfHorror/RetaleOfHorror.cpp.sarif"
+/sourceDependencies "C:/Users/dunkl/OneDrive/Documents/GitHub/repos/Retale of Horror/RetaleOfHorror/RetaleOfHorror/Intermediate/Build/Win64/x64/UnrealEditor/Development/RetaleOfHorror/RetaleOfHorror.cpp.dep.json"
 /d2ssa-cfg-question-
 /Zc:inline
 /nologo
