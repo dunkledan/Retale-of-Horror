@@ -1,11 +1,10 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
 #pragma once
 
 #include "Mess.h"
-#include "ObjectPoolNode.cpp"
+#include "ObjectPoolNode.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "EngineUtils.h"
 #include "MessManager.generated.h"
 
 //The manager of all messes in a level
