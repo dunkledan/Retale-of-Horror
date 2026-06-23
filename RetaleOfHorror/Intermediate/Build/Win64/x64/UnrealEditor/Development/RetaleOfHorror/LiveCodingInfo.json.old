@@ -2,7 +2,13 @@
 	"RemapUnityFiles": 
 	{
 		"Module.RetaleOfHorror.gen.cpp.obj": [
+<<<<<<< HEAD
 			"BP_TestingCharactercpp.gen.cpp.obj",
+=======
+			"Mess.gen.cpp.obj",
+			"PoolableObject.gen.cpp.obj",
+			"MessManager.gen.cpp.obj",
+>>>>>>> Mess-maanger-tmep
 			"RetaleOfHorror.init.gen.cpp.obj"
 		]
 	}

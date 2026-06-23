@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\gaming\\documents\\github\\retale-of-horror\\retaleofhorror\\intermediate\\build\\win64\\unrealeditor\\inc\\retaleofhorror\\uht\\messmanager.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\gaming\\documents\\github\\retale-of-horror\\retaleofhorror\\intermediate\\build\\win64\\x64\\retaleofhorroreditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\gaming\\documents\\github\\retale-of-horror\\retaleofhorror\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\retaleofhorror\\definitions.retaleofhorror.h",
+            "c:\\users\\gaming\\documents\\github\\retale-of-horror\\retaleofhorror\\source\\retaleofhorror\\messmanager.h",
+            "c:\\users\\gaming\\documents\\github\\retale-of-horror\\retaleofhorror\\source\\retaleofhorror\\mess.h",
+            "c:\\users\\gaming\\documents\\github\\retale-of-horror\\retaleofhorror\\intermediate\\build\\win64\\unrealeditor\\inc\\retaleofhorror\\uht\\mess.generated.h",
+            "c:\\users\\gaming\\documents\\github\\retale-of-horror\\retaleofhorror\\source\\retaleofhorror\\objectpoolnode.cpp",
+            "c:\\users\\gaming\\documents\\github\\retale-of-horror\\retaleofhorror\\source\\retaleofhorror\\objectpoolnode.h",
+            "c:\\users\\gaming\\documents\\github\\retale-of-horror\\retaleofhorror\\intermediate\\build\\win64\\unrealeditor\\inc\\retaleofhorror\\uht\\messmanager.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

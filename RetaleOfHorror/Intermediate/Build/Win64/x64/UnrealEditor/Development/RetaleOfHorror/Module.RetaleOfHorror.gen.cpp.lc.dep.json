@@ -1,6 +1,7 @@
 {
     "Version": "1.2",
     "Data": {
+<<<<<<< HEAD
         "Source": "c:\\users\\dunkl\\onedrive\\documents\\github\\repos\\retale of horror\\retaleofhorror\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\retaleofhorror\\module.retaleofhorror.gen.cpp",
         "ProvidedModule": "",
         "PCH": "c:\\users\\dunkl\\onedrive\\documents\\github\\repos\\retale of horror\\retaleofhorror\\intermediate\\build\\win64\\x64\\retaleofhorroreditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
@@ -19,6 +20,19 @@
             "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
             "c:\\users\\dunkl\\onedrive\\documents\\github\\repos\\retale of horror\\retaleofhorror\\intermediate\\build\\win64\\unrealeditor\\inc\\retaleofhorror\\uht\\bp_testingcharactercpp.generated.h",
             "c:\\users\\dunkl\\onedrive\\documents\\github\\repos\\retale of horror\\retaleofhorror\\intermediate\\build\\win64\\unrealeditor\\inc\\retaleofhorror\\uht\\retaleofhorror.init.gen.cpp"
+=======
+        "Source": "c:\\users\\gaming\\documents\\github\\retale-of-horror\\retaleofhorror\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\retaleofhorror\\module.retaleofhorror.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\gaming\\documents\\github\\retale-of-horror\\retaleofhorror\\intermediate\\build\\win64\\x64\\retaleofhorroreditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\gaming\\documents\\github\\retale-of-horror\\retaleofhorror\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\retaleofhorror\\definitions.retaleofhorror.h",
+            "c:\\users\\gaming\\documents\\github\\retale-of-horror\\retaleofhorror\\intermediate\\build\\win64\\unrealeditor\\inc\\retaleofhorror\\uht\\mess.gen.cpp",
+            "c:\\users\\gaming\\documents\\github\\retale-of-horror\\retaleofhorror\\source\\retaleofhorror\\mess.h",
+            "c:\\users\\gaming\\documents\\github\\retale-of-horror\\retaleofhorror\\intermediate\\build\\win64\\unrealeditor\\inc\\retaleofhorror\\uht\\mess.generated.h",
+            "c:\\users\\gaming\\documents\\github\\retale-of-horror\\retaleofhorror\\intermediate\\build\\win64\\unrealeditor\\inc\\retaleofhorror\\uht\\poolableobject.gen.cpp",
+            "c:\\users\\gaming\\documents\\github\\retale-of-horror\\retaleofhorror\\source\\retaleofhorror\\poolableobject.h",
+            "c:\\users\\gaming\\documents\\github\\retale-of-horror\\retaleofhorror\\intermediate\\build\\win64\\unrealeditor\\inc\\retaleofhorror\\uht\\poolableobject.generated.h"
+>>>>>>> Mess-maanger-tmep
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

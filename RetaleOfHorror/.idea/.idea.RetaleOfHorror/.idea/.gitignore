@@ -2,10 +2,17 @@
 /shelf/
 /workspace.xml
 # Rider ignored files
+<<<<<<< HEAD
 /modules.xml
 /contentModel.xml
 /.idea.RetaleOfHorror.iml
 /projectSettingsUpdater.xml
+=======
+/contentModel.xml
+/projectSettingsUpdater.xml
+/modules.xml
+/.idea.RetaleOfHorror.iml
+>>>>>>> Mess-maanger-tmep
 # Editor-based HTTP Client requests
 /httpRequests/
 # Ignored default folder with query files

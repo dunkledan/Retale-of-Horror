@@ -12,8 +12,13 @@
       <Filter>Source</Filter>
     </None>
     <None Include="..\..\.vsconfig" />
+<<<<<<< HEAD
     <None Include="..\..\UpgradeLog.htm" />
     <None Include="..\..\UpgradeLog2.htm" />
+=======
+    <None Include="..\..\RetaleOfHorror.sln.DotSettings.user" />
+    <None Include="..\..\UpgradeLog.htm" />
+>>>>>>> Mess-maanger-tmep
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -32,6 +37,30 @@
     <Filter Include="Source\RetaleOfHorror">
       <UniqueIdentifier>{B156AB86-05B8-37E6-867C-A2221C2FFE2C}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\RetaleOfHorror\Mess.cpp">
+      <Filter>Source\RetaleOfHorror</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RetaleOfHorror\Mess.h">
+      <Filter>Source\RetaleOfHorror</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RetaleOfHorror\MessManager.cpp">
+      <Filter>Source\RetaleOfHorror</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RetaleOfHorror\MessManager.h">
+      <Filter>Source\RetaleOfHorror</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RetaleOfHorror\ObjectPoolNode.cpp">
+      <Filter>Source\RetaleOfHorror</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RetaleOfHorror\ObjectPoolNode.h">
+      <Filter>Source\RetaleOfHorror</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RetaleOfHorror\PoolableObject.cpp">
+      <Filter>Source\RetaleOfHorror</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RetaleOfHorror\PoolableObject.h">
+      <Filter>Source\RetaleOfHorror</Filter>
+    </ClInclude>
     <None Include="..\..\Source\RetaleOfHorror\RetaleOfHorror.Build.cs">
       <Filter>Source\RetaleOfHorror</Filter>
     </None>

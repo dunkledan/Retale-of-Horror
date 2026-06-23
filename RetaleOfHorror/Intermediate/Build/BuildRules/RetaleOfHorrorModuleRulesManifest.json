@@ -1,8 +1,14 @@
 {
 	"SourceFiles": [
+<<<<<<< HEAD
 		"C:\\Users\\dunkl\\OneDrive\\Documents\\GitHub\\repos\\Retale of Horror\\RetaleOfHorror\\Source\\RetaleOfHorror\\RetaleOfHorror.Build.cs",
 		"C:\\Users\\dunkl\\OneDrive\\Documents\\GitHub\\repos\\Retale of Horror\\RetaleOfHorror\\Source\\RetaleOfHorror.Target.cs",
 		"C:\\Users\\dunkl\\OneDrive\\Documents\\GitHub\\repos\\Retale of Horror\\RetaleOfHorror\\Source\\RetaleOfHorrorEditor.Target.cs"
+=======
+		"C:\\Users\\Gaming\\Documents\\GitHub\\Retale-of-Horror\\RetaleOfHorror\\Source\\RetaleOfHorror\\RetaleOfHorror.Build.cs",
+		"C:\\Users\\Gaming\\Documents\\GitHub\\Retale-of-Horror\\RetaleOfHorror\\Source\\RetaleOfHorror.Target.cs",
+		"C:\\Users\\Gaming\\Documents\\GitHub\\Retale-of-Horror\\RetaleOfHorror\\Source\\RetaleOfHorrorEditor.Target.cs"
+>>>>>>> Mess-maanger-tmep
 	],
 	"EngineVersion": "5.6.1"
 }
