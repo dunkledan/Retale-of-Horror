@@ -15,7 +15,13 @@ AMessManager::AMessManager()
 void AMessManager::BeginPlay()
 { 
 	Super::BeginPlay();
-
+	//init mess array storage
+	
+	for (TActorIterator<AMess> It(GetWorld()); It; ++It)
+	{
+		MessArray.Add(*It);
+	}
+	
 	//set timer
 	GetWorldTimerManager().SetTimer(MessTimerHandle, this, &ThisClass::MessTimerOperations, MessTimerLength, true);
 	
@@ -98,33 +104,36 @@ bool AMessManager::ShouldBossBeCalled()
 
 AMess* AMessManager::GetMessFromPool()
 {
-	MessPool = MessPool->GetNextNodeNotInUse();
 	//if all nodes are in use throw error, if not return data
-	if (MessPool == nullptr)
-	{
-		UE_LOG(LogTemp, Error, TEXT("Mess pool is null."));
-		return nullptr;
-	}
-	else
-	{
-		MessPool->ChangeObjectInUse(true);
-		return MessPool->GetData();
-	}
+    if (MessPool == nullptr)
+    {
+        UE_LOG(LogTemp, Error, TEXT("Mess pool is null."));
+        return nullptr;
+    }
+
+    TObjectPoolNode<AMess>* AvailableNode = MessPool->GetNextNodeNotInUse();
+
+    if (AvailableNode == nullptr)
+    {
+        UE_LOG(LogTemp, Error, TEXT("No available mess found."));
+        return nullptr;
+    }
+
+    AvailableNode->ChangeObjectInUse(true);
+
+    return AvailableNode->GetData();
 }
 
 bool AMessManager::SpawnMess()
 {
 	UE_LOG(LogTemp, Display, TEXT("Spawned a mess"));
 	AMess* Mess = GetMessFromPool();
-	if (Mess == nullptr)
+	if (!Mess)
 	{
-		UE_LOG(LogTemp, Error, TEXT("Mess pool is null."));
+		UE_LOG(LogTemp, Error, TEXT("Failed to get mess from pool."));
+		return false;
 	}
-	else
-	{
-		Mess->SpawnMess();
-	}
-	return true;
+	return Mess->SpawnMess();
 }
 
 void AMessManager::CallBoss()
@@ -135,7 +144,12 @@ void AMessManager::CallBoss()
 AMessManager::~AMessManager()
 {
 	UE_LOG(LogTemp, Display, TEXT("Destructing Mess Manager"));
-	//messPool->DeleteList();
+	if (MessPool)
+	{
+		MessPool = nullptr;
+		delete MessPool;
+		MessPool = nullptr;
+	}
 }
 
 
