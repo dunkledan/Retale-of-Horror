@@ -21,8 +21,8 @@ AMess::AMess()
 void AMess::BeginPlay()
 {
 	Super::BeginPlay();
-	SpawnLocation = this->GetActorLocation();
-	this->SetActorLocation(PoolingLocation);
+	SpawnLocation = GetActorLocation();
+	SetActorLocation(PoolingLocation);
 	
 }
 

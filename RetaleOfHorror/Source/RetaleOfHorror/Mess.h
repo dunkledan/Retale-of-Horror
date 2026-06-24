@@ -12,8 +12,8 @@ class RETALEOFHORROR_API AMess : public AActor
 	GENERATED_BODY()
 private:
 
-	UPROPERTY(EditAnywhere) FVector PoolingLocation;
-	UPROPERTY(EditAnywhere) FVector SpawnLocation;
+	UPROPERTY(EditAnywhere) FVector PoolingLocation = FVector(-10000.f, -10000.f, -10000.f);
+	UPROPERTY(EditAnywhere) FVector SpawnLocation = FVector::ZeroVector;
 public:	
 	// Sets default values for this actor's properties
 	AMess();
