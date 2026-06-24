@@ -1,11 +1,11 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\dunkl\\onedrive\\documents\\github\\repos\\retale of horror\\retaleofhorror\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\retaleofhorror\\permoduleinline.gen.cpp",
+        "Source": "c:\\users\\dunkl\\onedrive\\documents\\github\\repos\\retale of horror\\retaleofhorror\\retaleofhorror\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\retaleofhorror\\permoduleinline.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\dunkl\\onedrive\\documents\\github\\repos\\retale of horror\\retaleofhorror\\intermediate\\build\\win64\\x64\\retaleofhorroreditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "PCH": "c:\\users\\dunkl\\onedrive\\documents\\github\\repos\\retale of horror\\retaleofhorror\\retaleofhorror\\intermediate\\build\\win64\\x64\\retaleofhorroreditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
         "Includes": [
-            "c:\\users\\dunkl\\onedrive\\documents\\github\\repos\\retale of horror\\retaleofhorror\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\retaleofhorror\\definitions.retaleofhorror.h",
+            "c:\\users\\dunkl\\onedrive\\documents\\github\\repos\\retale of horror\\retaleofhorror\\retaleofhorror\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\retaleofhorror\\definitions.retaleofhorror.h",
             "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
         ],
         "ImportedModules": [],

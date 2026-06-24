@@ -146,8 +146,8 @@ AMessManager::~AMessManager()
 	UE_LOG(LogTemp, Display, TEXT("Destructing Mess Manager"));
 	if (MessPool)
 	{
-		MessPool = nullptr;
 		delete MessPool;
+		MessPool = nullptr;
 		MessPool = nullptr;
 	}
 }

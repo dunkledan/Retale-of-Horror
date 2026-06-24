@@ -19,7 +19,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 // ********** Begin Class AMessManager *************************************************************
 RETALEOFHORROR_API UClass* Z_Construct_UClass_AMessManager_NoRegister();
 
-#define FID_Users_dunkl_OneDrive_Documents_GitHub_repos_Retale_of_Horror_RetaleOfHorror_RetaleOfHorror_Source_RetaleOfHorror_MessManager_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_Users_dunkl_OneDrive_Documents_GitHub_repos_Retale_of_Horror_RetaleOfHorror_RetaleOfHorror_Source_RetaleOfHorror_MessManager_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMessManager(); \
 	friend struct Z_Construct_UClass_AMessManager_Statics; \
@@ -30,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(AMessManager)
 
 
-#define FID_Users_dunkl_OneDrive_Documents_GitHub_repos_Retale_of_Horror_RetaleOfHorror_RetaleOfHorror_Source_RetaleOfHorror_MessManager_h_15_ENHANCED_CONSTRUCTORS \
+#define FID_Users_dunkl_OneDrive_Documents_GitHub_repos_Retale_of_Horror_RetaleOfHorror_RetaleOfHorror_Source_RetaleOfHorror_MessManager_h_16_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	AMessManager(AMessManager&&) = delete; \
 	AMessManager(const AMessManager&) = delete; \
@@ -39,12 +39,12 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AMessManager)
 
 
-#define FID_Users_dunkl_OneDrive_Documents_GitHub_repos_Retale_of_Horror_RetaleOfHorror_RetaleOfHorror_Source_RetaleOfHorror_MessManager_h_12_PROLOG
-#define FID_Users_dunkl_OneDrive_Documents_GitHub_repos_Retale_of_Horror_RetaleOfHorror_RetaleOfHorror_Source_RetaleOfHorror_MessManager_h_15_GENERATED_BODY \
+#define FID_Users_dunkl_OneDrive_Documents_GitHub_repos_Retale_of_Horror_RetaleOfHorror_RetaleOfHorror_Source_RetaleOfHorror_MessManager_h_13_PROLOG
+#define FID_Users_dunkl_OneDrive_Documents_GitHub_repos_Retale_of_Horror_RetaleOfHorror_RetaleOfHorror_Source_RetaleOfHorror_MessManager_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_dunkl_OneDrive_Documents_GitHub_repos_Retale_of_Horror_RetaleOfHorror_RetaleOfHorror_Source_RetaleOfHorror_MessManager_h_15_INCLASS_NO_PURE_DECLS \
-	FID_Users_dunkl_OneDrive_Documents_GitHub_repos_Retale_of_Horror_RetaleOfHorror_RetaleOfHorror_Source_RetaleOfHorror_MessManager_h_15_ENHANCED_CONSTRUCTORS \
+	FID_Users_dunkl_OneDrive_Documents_GitHub_repos_Retale_of_Horror_RetaleOfHorror_RetaleOfHorror_Source_RetaleOfHorror_MessManager_h_16_INCLASS_NO_PURE_DECLS \
+	FID_Users_dunkl_OneDrive_Documents_GitHub_repos_Retale_of_Horror_RetaleOfHorror_RetaleOfHorror_Source_RetaleOfHorror_MessManager_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

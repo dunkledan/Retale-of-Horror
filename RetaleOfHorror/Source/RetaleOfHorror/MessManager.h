@@ -6,6 +6,7 @@
 #include "ObjectPoolNode.cpp"
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "EngineUtils.h"
 #include "MessManager.generated.h"
 
 //The manager of all messes in a level
@@ -24,13 +25,13 @@ private:
 	TObjectPoolNode<AMess>* MessPool;
 
 	//the number of messes currently in the scene - this should never be negative
-	UPROPERTY(EditAnywhere) int CurrentMessCount;
+	UPROPERTY(EditAnywhere) int CurrentMessCount = 0;
 	//the maximum amount of messes that can be spawned in before the boss calls
-	UPROPERTY(EditAnywhere) int SoftMessCap;
+	UPROPERTY(EditAnywhere) int SoftMessCap= 3;
 	//the maximum amount of messes that can be spawned in at one time
-	UPROPERTY(EditAnywhere) int HardMessCap;
+	UPROPERTY(EditAnywhere) int HardMessCap = 5;
 	//the amount of time that it takes for the mess timer to tick
-	UPROPERTY(EditAnywhere) int MessTimerLength;
+	UPROPERTY(EditAnywhere) int MessTimerLength = 1;
 	//an array of messes to be used
 	UPROPERTY(EditAnywhere) TArray<AMess*> MessArray;
 //methods

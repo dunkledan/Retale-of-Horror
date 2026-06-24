@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\dunkl\\onedrive\\documents\\github\\repos\\retale of horror\\retaleofhorror\\retaleofhorror\\source\\retaleofhorror\\poolableobject.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\dunkl\\onedrive\\documents\\github\\repos\\retale of horror\\retaleofhorror\\retaleofhorror\\intermediate\\build\\win64\\x64\\retaleofhorroreditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\dunkl\\onedrive\\documents\\github\\repos\\retale of horror\\retaleofhorror\\retaleofhorror\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\retaleofhorror\\definitions.retaleofhorror.h",
+            "c:\\users\\dunkl\\onedrive\\documents\\github\\repos\\retale of horror\\retaleofhorror\\retaleofhorror\\source\\retaleofhorror\\poolableobject.h",
+            "c:\\users\\dunkl\\onedrive\\documents\\github\\repos\\retale of horror\\retaleofhorror\\retaleofhorror\\intermediate\\build\\win64\\unrealeditor\\inc\\retaleofhorror\\uht\\poolableobject.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
