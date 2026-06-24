@@ -1648,3 +1648,183 @@ Detoured run took 2.2s
 [2026.06.24-10.19.52:481][382]LogUObjectGlobals: Error: CDO Constructor (Mess): Failed to find /Engine/EditorMeshes/Cube.Cube
 
 [2026.06.24-10.20.02:565][842]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2026.06.24-10.22.48:033][385]LogLiveCoding: Display: Starting Live Coding compile.
+[2026.06.24-10.24.18:421][284]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 987.870239
+[2026.06.24-10.24.18:613][293]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.06.24-10.24.18:613][293]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 988.048157, Update Interval: 334.331482
+[2026.06.24-10.26.44:400][171]Display: Reload/Re-instancing Complete: No object changes detected
+[2026.06.24-10.26.44:405][171]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2026.06.24-10.27.42:428][346]LogLiveCoding: Display: Starting Live Coding compile.
+[2026.06.24-10.29.41:798][912]LogLiveCoding: Display: UbaCli v5.7.0-Uba_v1.0.0-43528563 (Rootdir: "C:\ProgramData\Epic\UbaCli", StoreCapacity: 0Gb)
+
+---- Starting trace: Debug0dc9b262-efa1-435f-92a2-52a12218c187 ----
+Running C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.38.33130\bin\Hostx64\x64\link.exe @C:\Users\dunkl\AppData\Local\Temp\C1A1.tmp
+   Creating library C:\Users\dunkl\OneDrive\Documents\GitHub\repos\Retale of Horror\RetaleOfHorror\RetaleOfHorror\Binaries\Win64\UnrealEditor-RetaleOfHorror.patch_1.lib and object C:\Users\dunkl\OneDrive\Documents\GitHub\repos\Retale of Horror\RetaleOfHorror\RetaleOfHorror\Binaries\Win64\UnrealEditor-RetaleOfHorror.patch_1.exp
+Detoured run took 2.3s
+[2026.06.24-10.29.43:919][913]LogTemp: Display: Destructing Mess Manager
+[2026.06.24-10.29.43:933][913]LogUObjectHash: Compacting FUObjectHashTables data took   4.50ms
+[2026.06.24-10.29.44:160][914]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.06.24-10.29.44:241][914]LogContentBundle: [map(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.06.24-10.29.44:242][914]LogWorldPartition: Display: GenerateStreaming for 'map' started...
+[2026.06.24-10.29.44:298][914]LogStreaming: Display: FlushAsyncLoading(609,610,611,612,613,614,615,616,617,618,619,620,621,622,623,624,625,626,627,628,629,630,631,632,633,634,635,636,637,638,639,640,641,642,643,644,645,646,647,648,649,650,651,652,653,654,655,656,657,658,659,660,661,662,663,664,665,666,667,668,669,670,671,672): 64 QueuedPackages, 0 AsyncPackages
+[2026.06.24-10.29.44:660][914]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/__ExternalActors__/Maps/map/0/8W/NNXNF57MIYD7MWTYNYR0FN) ...
+[2026.06.24-10.29.44:927][914]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/__ExternalActors__/Maps/map/3/5I/ND2SQ7X5F7ZYXO9A83N6KQ) ...
+[2026.06.24-10.29.44:987][914]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/__ExternalActors__/Maps/map/5/0Y/YR8V8LZ5UOIOPI1ESL64IT) ...
+[2026.06.24-10.29.45:044][914]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/__ExternalActors__/Maps/map/7/ZN/J7Y7B8J6LO11N8KQ2AJU26) ...
+[2026.06.24-10.29.45:087][914]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/__ExternalActors__/Maps/map/9/8R/RDB2CAEC8T9A1R1KQN1E3G) ...
+[2026.06.24-10.29.45:155][914]LogWorldPartition: Display: GenerateStreaming for 'map' took 912.523 ms (total: 2.01 sec)
+[2026.06.24-10.29.45:191][914]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.06.24-10.29.45:210][914]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_map
+[2026.06.24-10.29.45:310][914]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.06.24-10.29.45:323][914]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 12.679 ms (total: 38.009 ms)
+[2026.06.24-10.29.45:327][914]LogPlayLevel: PIE: StaticDuplicateObject took: (0.117398s)
+[2026.06.24-10.29.45:328][914]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map.map to /Game/Maps/UEDPIE_0_map.map (0.117633s)
+[2026.06.24-10.29.45:379][914]LogTemp: Display: Destructing Mess Manager
+[2026.06.24-10.29.45:380][914]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2026.06.24-10.29.45:393][914]LogChaosDD: Creating Chaos Debug Draw Scene for world map
+[2026.06.24-10.29.45:496][914]LogWorldPartition: ULevel::OnLevelLoaded(map)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.06.24-10.29.45:496][914]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.06.24-10.29.45:496][914]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Maps/UEDPIE_0_map.map, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.06.24-10.29.45:496][914]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.06.24-10.29.45:519][914]LogWorldPartition: Display: WorldPartition initialize took 22.370 ms (total: 678.244 ms)
+[2026.06.24-10.29.45:521][914]LogPlayLevel: PIE: World Init took: (0.127986s)
+[2026.06.24-10.29.45:526][914]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2026.06.24-10.29.45:527][914]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.06.24-10.29.45:527][914]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.06.24-10.29.45:527][914]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.06.24-10.29.45:527][914]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.06.24-10.29.45:527][914]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.06.24-10.29.45:527][914]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.06.24-10.29.45:529][914]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.06.24-10.29.45:529][914]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.06.24-10.29.45:530][914]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.06.24-10.29.45:531][914]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.06.24-10.29.45:531][914]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.06.24-10.29.45:547][914]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.06.24-10.29.45:624][914]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (G435 Wireless Gaming Headset)
+[2026.06.24-10.29.45:634][914]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.06.24-10.29.45:634][914]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.06.24-10.29.45:637][914]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.06.24-10.29.45:644][914]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2026.06.24-10.29.45:644][914]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2026.06.24-10.29.45:652][914]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2026.06.24-10.29.45:652][914]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2026.06.24-10.29.45:653][914]LogInit: FAudioDevice initialized with ID 4.
+[2026.06.24-10.29.45:653][914]LogAudio: Display: Audio Device (ID: 4) registered with world 'map'.
+[2026.06.24-10.29.45:656][914]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2026.06.24-10.29.45:727][914]LogLoad: Game class is 'BP_MyGameMode_C'
+[2026.06.24-10.29.45:743][914]LogWorld: Bringing World /Game/Maps/UEDPIE_0_map.map up for play (max tick rate 60) at 2026.06.24-11.29.45
+[2026.06.24-10.29.45:748][914]LogWorld: Bringing up level for play took: 0.016278
+[2026.06.24-10.29.45:772][914]LogOnline: OSS: Created online subsystem instance for: :Context_6
+[2026.06.24-10.29.46:850][914]PIE: Server logged in
+[2026.06.24-10.29.46:854][914]PIE: Play in editor total start time 2.623 seconds.
+[2026.06.24-10.29.47:060][914]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_MouseMovement'
+[2026.06.24-10.29.47:120][914]LogSlate: Took 0.022045 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2026.06.24-10.29.47:206][914]Display: Reload/Re-instancing Complete: 1 package changed, 3 classes unchanged
+[2026.06.24-10.29.47:207][914]LogLiveCoding: Display: Live coding succeeded
+[2026.06.24-10.29.47:531][915]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.06.24-10.29.48:232][922]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2026.06.24-10.29.50:139][949]LogTemp: Display: Spawned a mess
+[2026.06.24-10.29.52:121][ 13]LogTemp: Display: Spawned a mess
+[2026.06.24-10.29.52:907][ 51]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.06.24-10.29.52:907][ 51]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_map
+[2026.06.24-10.29.52:938][ 51]LogWorld: UWorld::CleanupWorld for map, bSessionEnded=true, bCleanupResources=true
+[2026.06.24-10.29.52:942][ 51]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.06.24-10.29.52:942][ 51]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Maps/UEDPIE_0_map.map
+[2026.06.24-10.29.52:961][ 51]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.06.24-10.29.52:971][ 51]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.06.24-10.29.53:036][ 51]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.06.24-10.29.53:038][ 51]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2026.06.24-10.29.53:039][ 51]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=4
+[2026.06.24-10.29.53:126][ 51]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=2
+[2026.06.24-10.29.53:213][ 51]LogTemp: Display: Destructing Mess Manager
+[2026.06.24-10.29.53:227][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2026.06.24-10.29.53:331][ 51]LogPSOHitching: Encountered 50 PSO creation hitches so far (18 graphics, 32 compute). 0 of them were precached.
+[2026.06.24-10.29.54:065][ 52]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2026.06.24-10.29.56:115][120]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2026.06.24-10.29.56:116][120]LogEditor: Attempting to add actor of class 'Mess' to level at 1160.00,-90.00,0.00
+[2026.06.24-10.29.56:736][146]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2026.06.24-10.29.56:738][146]LogEditorActor: Deleted 0 Actors (0.034 secs)
+[2026.06.24-10.29.56:748][146]LogEditor: Attempting to add actor of class 'Mess' to level at 1070.00,-100.00,90.00
+[2026.06.24-10.29.58:706][235]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.06.24-10.29.58:726][235]LogContentBundle: [map(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.06.24-10.29.58:726][235]LogWorldPartition: Display: GenerateStreaming for 'map' started...
+[2026.06.24-10.29.58:732][235]LogStreaming: Display: FlushAsyncLoading(726,727,728,729,730,731,732,733,734,735,736,737,738,739,740,741,742,743,744,745,746,747,748,749,750,751,752,753,754,755,756,757,758,759,760,761,762,763,764,765,766,767,768,769,770,771,772,773,774,775,776,777,778,779,780,781,782,783,784,785,786,787,788,789): 64 QueuedPackages, 0 AsyncPackages
+[2026.06.24-10.29.58:870][235]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/__ExternalActors__/Maps/map/0/8W/NNXNF57MIYD7MWTYNYR0FN) ...
+[2026.06.24-10.29.58:900][235]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/__ExternalActors__/Maps/map/1/8X/KCKNBYOCEIPQ2VIG3TYV7M) ...
+[2026.06.24-10.29.58:932][235]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/__ExternalActors__/Maps/map/4/KB/FUBHWQNKT6ARXLK26U7UQH) ...
+[2026.06.24-10.29.58:988][235]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/__ExternalActors__/Maps/map/7/S3/9S7EYXKID9B3XBSDZXEELP) ...
+[2026.06.24-10.29.59:038][235]LogWorldPartition: Display: GenerateStreaming for 'map' took 311.074 ms (total: 2.32 sec)
+[2026.06.24-10.29.59:039][235]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.06.24-10.29.59:039][235]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_map
+[2026.06.24-10.29.59:086][235]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.06.24-10.29.59:097][235]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 10.833 ms (total: 48.842 ms)
+[2026.06.24-10.29.59:098][235]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057839s)
+[2026.06.24-10.29.59:098][235]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/map.map to /Game/Maps/UEDPIE_0_map.map (0.057919s)
+[2026.06.24-10.29.59:129][235]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2026.06.24-10.29.59:132][235]LogChaosDD: Creating Chaos Debug Draw Scene for world map
+[2026.06.24-10.29.59:136][235]LogWorldPartition: ULevel::OnLevelLoaded(map)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.06.24-10.29.59:136][235]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.06.24-10.29.59:136][235]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Maps/UEDPIE_0_map.map, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.06.24-10.29.59:136][235]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.06.24-10.29.59:153][235]LogWorldPartition: Display: WorldPartition initialize took 16.328 ms (total: 694.572 ms)
+[2026.06.24-10.29.59:153][235]LogPlayLevel: PIE: World Init took: (0.020280s)
+[2026.06.24-10.29.59:155][235]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2026.06.24-10.29.59:155][235]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.06.24-10.29.59:155][235]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.06.24-10.29.59:155][235]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.06.24-10.29.59:155][235]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.06.24-10.29.59:155][235]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.06.24-10.29.59:155][235]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.06.24-10.29.59:155][235]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.06.24-10.29.59:155][235]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.06.24-10.29.59:155][235]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.06.24-10.29.59:155][235]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.06.24-10.29.59:155][235]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.06.24-10.29.59:159][235]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.06.24-10.29.59:196][235]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (G435 Wireless Gaming Headset)
+[2026.06.24-10.29.59:204][235]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.06.24-10.29.59:204][235]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.06.24-10.29.59:204][235]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.06.24-10.29.59:208][235]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2026.06.24-10.29.59:208][235]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2026.06.24-10.29.59:212][235]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2026.06.24-10.29.59:213][235]LogInit: FAudioDevice initialized with ID 5.
+[2026.06.24-10.29.59:213][235]LogAudio: Display: Audio Device (ID: 5) registered with world 'map'.
+[2026.06.24-10.29.59:213][235]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2026.06.24-10.29.59:213][235]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2026.06.24-10.29.59:220][235]LogLoad: Game class is 'BP_MyGameMode_C'
+[2026.06.24-10.29.59:224][235]LogWorld: Bringing World /Game/Maps/UEDPIE_0_map.map up for play (max tick rate 60) at 2026.06.24-11.29.59
+[2026.06.24-10.29.59:224][235]LogWorld: Bringing up level for play took: 0.003789
+[2026.06.24-10.29.59:229][235]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2026.06.24-10.29.59:910][235]PIE: Server logged in
+[2026.06.24-10.29.59:915][235]PIE: Play in editor total start time 1.188 seconds.
+[2026.06.24-10.30.00:094][235]LogEnhancedInput: Error: Null input trigger detected in mapping to input action 'IA_MouseMovement'
+[2026.06.24-10.30.00:298][236]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.087703 > MaxSimulationTimeStep (0.050) for 'BP_Character_C_0', movement 'Walking'
+[2026.06.24-10.30.00:342][236]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.06.24-10.30.01:884][312]LogTemp: Display: Spawned a mess
+[2026.06.24-10.30.03:752][421]LogBlueprintUserMessages: [BP_CustomSoundHearingAndCollision] It stopped hearing you
+[2026.06.24-10.30.03:884][428]LogTemp: Display: Spawned a mess
+[2026.06.24-10.30.05:895][547]LogTemp: Display: Spawned a mess
+[2026.06.24-10.30.05:895][547]LogTemp: Display: Call the boss
+[2026.06.24-10.30.07:918][665]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.06.24-10.30.07:918][665]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_map
+[2026.06.24-10.30.07:933][665]LogWorld: UWorld::CleanupWorld for map, bSessionEnded=true, bCleanupResources=true
+[2026.06.24-10.30.07:933][665]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.06.24-10.30.07:934][665]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Maps/UEDPIE_0_map.map
+[2026.06.24-10.30.07:938][665]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.06.24-10.30.07:944][665]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.06.24-10.30.07:994][665]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.06.24-10.30.07:994][665]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2026.06.24-10.30.07:995][665]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=4
+[2026.06.24-10.30.08:050][665]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=2
+[2026.06.24-10.30.08:187][665]LogTemp: Display: Destructing Mess Manager
+[2026.06.24-10.30.08:193][665]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2026.06.24-10.30.08:474][666]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2026.06.24-10.30.08:768][675]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1338.219727
+[2026.06.24-10.30.08:970][687]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.06.24-10.30.08:970][687]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1338.407715, Update Interval: 322.707611
