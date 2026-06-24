@@ -10,7 +10,7 @@ AMess::AMess()
 	PrimaryActorTick.bCanEverTick = true;
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>("StaticMesh");
 	RootComponent = Mesh;
-	ConstructorHelpers::FObjectFinder<UStaticMesh> MeshObj(TEXT("/Engine/EditorMeshes/EditorCube.EditorCube"));
+	ConstructorHelpers::FObjectFinder<UStaticMesh> MeshObj(TEXT("/Engine/EditorMeshes/Cube.Cube"));
 	if (MeshObj.Succeeded())
 	{
 		Mesh->SetStaticMesh(MeshObj.Object);
