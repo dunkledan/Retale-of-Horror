@@ -3,7 +3,7 @@
 #pragma once
 
 #include "Mess.h"
-#include "ObjectPoolNode.h"
+#include "ObjectPoolNode.cpp"
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "EngineUtils.h"
@@ -47,8 +47,6 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-	UFUNCTION()
-	void MoveMessToPool(AMess* Mess);
 
 private:
 	//timer function
@@ -63,4 +61,8 @@ private:
 	bool SpawnMess();
 	//call the boss
 	void CallBoss();
+
+
+	//on mess cleaned
+
 };
