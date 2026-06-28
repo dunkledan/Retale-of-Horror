@@ -7,23 +7,27 @@
 #include "UObject/GeneratedCppIncludes.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeRetaleOfHorror_init() {}
+	RETALEOFHORROR_API UFunction* Z_Construct_UDelegateFunction_RetaleOfHorror_OnMessCleaned__DelegateSignature();
 	static FPackageRegistrationInfo Z_Registration_Info_UPackage__Script_RetaleOfHorror;
 	FORCENOINLINE UPackage* Z_Construct_UPackage__Script_RetaleOfHorror()
 	{
 		if (!Z_Registration_Info_UPackage__Script_RetaleOfHorror.OuterSingleton)
 		{
+			static UObject* (*const SingletonFuncArray[])() = {
+				(UObject* (*)())Z_Construct_UDelegateFunction_RetaleOfHorror_OnMessCleaned__DelegateSignature,
+			};
 			static const UECodeGen_Private::FPackageParams PackageParams = {
 				"/Script/RetaleOfHorror",
-				nullptr,
-				0,
+				SingletonFuncArray,
+				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x5DE56443,
-				0x3BE39769,
+				0x376D292A,
+				0x263E1B22,
 				METADATA_PARAMS(0, nullptr)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_RetaleOfHorror.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_RetaleOfHorror.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_RetaleOfHorror(Z_Construct_UPackage__Script_RetaleOfHorror, TEXT("/Script/RetaleOfHorror"), Z_Registration_Info_UPackage__Script_RetaleOfHorror, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x5DE56443, 0x3BE39769));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_RetaleOfHorror(Z_Construct_UPackage__Script_RetaleOfHorror, TEXT("/Script/RetaleOfHorror"), Z_Registration_Info_UPackage__Script_RetaleOfHorror, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x376D292A, 0x263E1B22));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

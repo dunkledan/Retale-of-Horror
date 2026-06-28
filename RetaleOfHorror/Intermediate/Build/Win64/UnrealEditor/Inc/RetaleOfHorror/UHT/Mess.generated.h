@@ -16,10 +16,23 @@
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
+class AMess;
+
+// ********** Begin Delegate FOnMessCleaned ********************************************************
+#define FID_Users_dunkl_OneDrive_Documents_GitHub_repos_Portfolio_Website_Retale_of_Horror_RetaleOfHorror_Source_RetaleOfHorror_Mess_h_11_DELEGATE \
+RETALEOFHORROR_API void FOnMessCleaned_DelegateWrapper(const FMulticastScriptDelegate& OnMessCleaned, AMess* Mess);
+
+
+// ********** End Delegate FOnMessCleaned **********************************************************
+
 // ********** Begin Class AMess ********************************************************************
+#define FID_Users_dunkl_OneDrive_Documents_GitHub_repos_Portfolio_Website_Retale_of_Horror_RetaleOfHorror_Source_RetaleOfHorror_Mess_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execCleanMess);
+
+
 RETALEOFHORROR_API UClass* Z_Construct_UClass_AMess_NoRegister();
 
-#define FID_Users_dunkl_OneDrive_Documents_GitHub_repos_Retale_of_Horror_RetaleOfHorror_RetaleOfHorror_Source_RetaleOfHorror_Mess_h_12_INCLASS_NO_PURE_DECLS \
+#define FID_Users_dunkl_OneDrive_Documents_GitHub_repos_Portfolio_Website_Retale_of_Horror_RetaleOfHorror_Source_RetaleOfHorror_Mess_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMess(); \
 	friend struct Z_Construct_UClass_AMess_Statics; \
@@ -30,7 +43,7 @@ public: \
 	DECLARE_SERIALIZER(AMess)
 
 
-#define FID_Users_dunkl_OneDrive_Documents_GitHub_repos_Retale_of_Horror_RetaleOfHorror_RetaleOfHorror_Source_RetaleOfHorror_Mess_h_12_ENHANCED_CONSTRUCTORS \
+#define FID_Users_dunkl_OneDrive_Documents_GitHub_repos_Portfolio_Website_Retale_of_Horror_RetaleOfHorror_Source_RetaleOfHorror_Mess_h_16_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	AMess(AMess&&) = delete; \
 	AMess(const AMess&) = delete; \
@@ -40,12 +53,13 @@ public: \
 	NO_API virtual ~AMess();
 
 
-#define FID_Users_dunkl_OneDrive_Documents_GitHub_repos_Retale_of_Horror_RetaleOfHorror_RetaleOfHorror_Source_RetaleOfHorror_Mess_h_9_PROLOG
-#define FID_Users_dunkl_OneDrive_Documents_GitHub_repos_Retale_of_Horror_RetaleOfHorror_RetaleOfHorror_Source_RetaleOfHorror_Mess_h_12_GENERATED_BODY \
+#define FID_Users_dunkl_OneDrive_Documents_GitHub_repos_Portfolio_Website_Retale_of_Horror_RetaleOfHorror_Source_RetaleOfHorror_Mess_h_13_PROLOG
+#define FID_Users_dunkl_OneDrive_Documents_GitHub_repos_Portfolio_Website_Retale_of_Horror_RetaleOfHorror_Source_RetaleOfHorror_Mess_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_dunkl_OneDrive_Documents_GitHub_repos_Retale_of_Horror_RetaleOfHorror_RetaleOfHorror_Source_RetaleOfHorror_Mess_h_12_INCLASS_NO_PURE_DECLS \
-	FID_Users_dunkl_OneDrive_Documents_GitHub_repos_Retale_of_Horror_RetaleOfHorror_RetaleOfHorror_Source_RetaleOfHorror_Mess_h_12_ENHANCED_CONSTRUCTORS \
+	FID_Users_dunkl_OneDrive_Documents_GitHub_repos_Portfolio_Website_Retale_of_Horror_RetaleOfHorror_Source_RetaleOfHorror_Mess_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Users_dunkl_OneDrive_Documents_GitHub_repos_Portfolio_Website_Retale_of_Horror_RetaleOfHorror_Source_RetaleOfHorror_Mess_h_16_INCLASS_NO_PURE_DECLS \
+	FID_Users_dunkl_OneDrive_Documents_GitHub_repos_Portfolio_Website_Retale_of_Horror_RetaleOfHorror_Source_RetaleOfHorror_Mess_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -55,6 +69,6 @@ class AMess;
 // ********** End Class AMess **********************************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_dunkl_OneDrive_Documents_GitHub_repos_Retale_of_Horror_RetaleOfHorror_RetaleOfHorror_Source_RetaleOfHorror_Mess_h
+#define CURRENT_FILE_ID FID_Users_dunkl_OneDrive_Documents_GitHub_repos_Portfolio_Website_Retale_of_Horror_RetaleOfHorror_Source_RetaleOfHorror_Mess_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

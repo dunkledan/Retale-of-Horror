@@ -15,11 +15,16 @@ AMessManager::AMessManager()
 void AMessManager::BeginPlay()
 { 
 	Super::BeginPlay();
+	
 	//init mess array storage
 	
 	for (TActorIterator<AMess> It(GetWorld()); It; ++It)
 	{
 		MessArray.Add(*It);
+	}
+	for (AMess* Mess : MessArray)
+	{
+		Mess->OnMessCleaned.AddDynamic(this, &AMessManager::MoveMessToPool);
 	}
 	
 	//set timer
@@ -152,5 +157,8 @@ AMessManager::~AMessManager()
 	}
 }
 
-
-
+void AMessManager::MoveMessToPool(AMess* Mess)
+{
+	CurrentMessCount -= 1;
+	MessArray.Remove(Mess);
+}

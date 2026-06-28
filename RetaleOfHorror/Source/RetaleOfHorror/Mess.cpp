@@ -39,6 +39,12 @@ bool AMess::SpawnMess()
 	return true;
 }
 
+void AMess::CleanMess()
+{
+	//OnMessCleaned.Broadcast(this);
+	MoveToPool();
+}
+
 bool AMess::MoveToPool()
 {
 	SetActorLocation(PoolingLocation);

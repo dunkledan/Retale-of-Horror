@@ -6,6 +6,10 @@
 #include "GameFramework/Actor.h"
 #include "Mess.generated.h"
 
+//mess cleaned message
+class AMess;
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnMessCleaned, AMess*, Mess);
+
 UCLASS()
 class RETALEOFHORROR_API AMess : public AActor
 {
@@ -31,4 +35,9 @@ public:
 	//move the mess to the object pool
 	bool MoveToPool();
 
+	//mess cleaning messaging
+	UPROPERTY(BlueprintAssignable)
+	FOnMessCleaned OnMessCleaned;
+	UFUNCTION(BlueprintCallable)
+	void CleanMess();
 };
